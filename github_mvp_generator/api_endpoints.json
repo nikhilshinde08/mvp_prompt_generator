@@ -1,0 +1,97 @@
+{
+  "project": "GitHub MVP Generator API",
+  "version": "1.0.0",
+  "description": "API endpoints for generating MVP prompts from GitHub repositories with learning capabilities",
+  "base_url": "http://localhost:5000",
+  "endpoints": [
+    {
+      "method": "GET",
+      "path": "/",
+      "description": "API home endpoint with endpoint documentation",
+      "request": null,
+      "response": {
+        "message": "GitHub MVP Generator API",
+        "endpoints": {
+          "generate_mvp": "POST /api/generate",
+          "submit_feedback": "POST /api/feedback",
+          "get_stats": "GET /api/stats",
+          "get_preferences": "GET /api/preferences"
+        }
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/api/generate",
+      "description": "Generate MVP prompt for a GitHub repository",
+      "request": {
+        "repo_url": "string (required) - GitHub repository URL",
+        "provider": "string (optional) - AI provider (groq or openai)",
+        "token": "string (optional) - GitHub personal access token"
+      },
+      "response": {
+        "repo_url": "string - GitHub repository URL",
+        "prompt": "string - Generated MVP prompt",
+        "provider": "string - AI provider used"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/api/feedback",
+      "description": "Submit feedback for a generated prompt",
+      "request": {
+        "repo_url": "string (required) - GitHub repository URL",
+        "rating": "integer (required) - Rating from 1-5",
+        "comments": "string (optional) - General comments",
+        "improvements": "string (optional) - Suggestions for improvement"
+      },
+      "response": {
+        "message": "string - Confirmation message"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/stats",
+      "description": "Get system statistics and performance metrics",
+      "request": null,
+      "response": {
+        "performance": {
+          "total_operations": "integer",
+          "success_rate": "float",
+          "average_response_time": "float"
+        },
+        "knowledge_base": {
+          "framework_signatures_count": "integer",
+          "successful_prompts_count": "integer",
+          "repo_patterns_count": "integer"
+        },
+        "feedback": {
+          "total_feedback": "integer",
+          "average_rating": "float"
+        },
+        "preferences": {
+          "default_provider": "string",
+          "usage_count": "integer"
+        }
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/preferences",
+      "description": "Get current user preferences",
+      "request": null,
+      "response": {
+        "default_provider": "string",
+        "preferred_tech_stacks": "array",
+        "preferred_project_types": "array",
+        "usage_count": "integer",
+        "last_used": "string"
+      }
+    }
+  ],
+  "usage_examples": [
+    "curl -X POST http://localhost:5000/api/generate -H 'Content-Type: application/json' -d '{\"repo_url\": \"https://github.com/facebook/react\"}'",
+    "curl -X POST http://localhost:5000/api/feedback -H 'Content-Type: application/json' -d '{\"repo_url\": \"https://github.com/facebook/react\", \"rating\": 4, \"comments\": \"Good analysis\"}'",
+    "curl http://localhost:5000/api/stats",
+    "curl http://localhost:5000/api/preferences"
+  ]
+}

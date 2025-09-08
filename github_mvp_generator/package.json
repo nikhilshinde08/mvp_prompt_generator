@@ -1,0 +1,13 @@
+{
+  "name": "github-mvp-generator",
+  "version": "1.0.0",
+  "description": "A Python tool that transforms any GitHub repository into an MVP prompt",
+  "main": "main.py",
+  "scripts": {
+    "start": "python main.py",
+    "test": "python -m unittest tests/test_generator.py"
+  },
+  "keywords": ["github", "mvp", "generator", "open-source"],
+  "author": "Developer",
+  "license": "MIT"
+}

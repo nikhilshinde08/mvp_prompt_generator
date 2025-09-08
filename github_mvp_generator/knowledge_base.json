@@ -1,0 +1,2151 @@
+{
+  "framework_signatures": {},
+  "successful_prompts": {
+    "9f8190e0600ea98e163beb46ba199f38": {
+      "repo_url": "https://github.com/test/repo",
+      "prompt_data": {
+        "project_type": "Test Project",
+        "tech_stack": "Python, Flask"
+      },
+      "rating": 5,
+      "timestamp": "2025-09-07T19:32:37.473177"
+    }
+  },
+  "repo_patterns": {
+    "34fc9d9a9bfb282b8334e89e27ab8849": {
+      "repo_url": "https://github.com/microsoft/qlib",
+      "pattern_data": {
+        "owner": "microsoft",
+        "repo": "qlib",
+        "name": "qlib",
+        "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
+        "language": "Python",
+        "frameworks": [],
+        "stars": 30039,
+        "forks": 4646,
+        "contents": [
+          {
+            "name": ".commitlintrc.js",
+            "path": ".commitlintrc.js",
+            "sha": "0a4c1ac2ec0487695fb3aca863a01cde80ca9425",
+            "size": 928,
+            "url": "https://api.github.com/repos/microsoft/qlib/contents/.commitlintrc.js?ref=main",
+            "html_url": "https://github.com/microsoft/qlib/blob/main/.commitlintrc.js",
+            "git_url": "https://api.github.com/repos/microsoft/qlib/git/blobs/0a4c1ac2ec0487695fb3aca863a01cde80ca9425",
+            "download_url": "https://raw.githubusercontent.com/microsoft/qlib/main/.commitlintrc.js",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/microsoft/qlib/contents/.commitlintrc.js?ref=main",
+              "git": "https://api.github.com/repos/microsoft/qlib/git/blobs/0a4c1ac2ec0487695fb3aca863a01cde80ca9425",
+              "html": "https://github.com/microsoft/qlib/blob/main/.commitlintrc.js"
+            }
+          },
+          {
+            "name": ".deepsource.toml",
+            "path": ".deepsource.toml",
+            "sha": "773c9e023fd740861ca09caa716e925a225e3b9d",
+            "size": 179,
+            "url": "https://api.github.com/repos/microsoft/qlib/contents/.deepsource.toml?ref=main",
+            "html_url": "https://github.com/microsoft/qlib/blob/main/.deepsource.toml",
+            "git_url": "https://api.github.com/repos/microsoft/qlib/git/blobs/773c9e023fd740861ca09caa716e925a225e3b9d",
+            "download_url": "https://raw.githubusercontent.com/microsoft/qlib/main/.deepsource.toml",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/microsoft/qlib/contents/.deepsource.toml?ref=main",
+              "git": "https://api.github.com/repos/microsoft/qlib/git/blobs/773c9e023fd740861ca09caa716e925a225e3b9d",
+              "html": "https://github.com/microsoft/qlib/blob/main/.deepsource.toml"
+            }
+          },
+          {
+            "name": ".dockerignore",
+            "path": ".dockerignore",
+            "sha": "bc00efde3a920fb91d8d0534a1f8fae10e7e688d",
+            "size": 49,
+            "url": "https://api.github.com/repos/microsoft/qlib/contents/.dockerignore?ref=main",
+            "html_url": "https://github.com/microsoft/qlib/blob/main/.dockerignore",
+            "git_url": "https://api.github.com/repos/microsoft/qlib/git/blobs/bc00efde3a920fb91d8d0534a1f8fae10e7e688d",
+            "download_url": "https://raw.githubusercontent.com/microsoft/qlib/main/.dockerignore",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/microsoft/qlib/contents/.dockerignore?ref=main",
+              "git": "https://api.github.com/repos/microsoft/qlib/git/blobs/bc00efde3a920fb91d8d0534a1f8fae10e7e688d",
+              "html": "https://github.com/microsoft/qlib/blob/main/.dockerignore"
+            }
+          },
+          {
+            "name": ".github",
+            "path": ".github",
+            "sha": "4760b911018a505022edee5e05df3123bd920a68",
+            "size": 0,
+            "url": "https://api.github.com/repos/microsoft/qlib/contents/.github?ref=main",
+            "html_url": "https://github.com/microsoft/qlib/tree/main/.github",
+            "git_url": "https://api.github.com/repos/microsoft/qlib/git/trees/4760b911018a505022edee5e05df3123bd920a68",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/microsoft/qlib/contents/.github?ref=main",
+              "git": "https://api.github.com/repos/microsoft/qlib/git/trees/4760b911018a505022edee5e05df3123bd920a68",
+              "html": "https://github.com/microsoft/qlib/tree/main/.github"
+            }
+          },
+          {
+            "name": ".gitignore",
+            "path": ".gitignore",
+            "sha": "10e3cd2ff1abc1db9f3ef2414306f6d35366115c",
+            "size": 605,
+            "url": "https://api.github.com/repos/microsoft/qlib/contents/.gitignore?ref=main",
+            "html_url": "https://github.com/microsoft/qlib/blob/main/.gitignore",
+            "git_url": "https://api.github.com/repos/microsoft/qlib/git/blobs/10e3cd2ff1abc1db9f3ef2414306f6d35366115c",
+            "download_url": "https://raw.githubusercontent.com/microsoft/qlib/main/.gitignore",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/microsoft/qlib/contents/.gitignore?ref=main",
+              "git": "https://api.github.com/repos/microsoft/qlib/git/blobs/10e3cd2ff1abc1db9f3ef2414306f6d35366115c",
+              "html": "https://github.com/microsoft/qlib/blob/main/.gitignore"
+            }
+          },
+          {
+            "name": ".mypy.ini",
+            "path": ".mypy.ini",
+            "sha": "d4baf0c33598492811b5b8c69c6d1b41a36e56ad",
+            "size": 359,
+            "url": "https://api.github.com/repos/microsoft/qlib/contents/.mypy.ini?ref=main",
+            "html_url": "https://github.com/microsoft/qlib/blob/main/.mypy.ini",
+            "git_url": "https://api.github.com/repos/microsoft/qlib/git/blobs/d4baf0c33598492811b5b8c69c6d1b41a36e56ad",
+            "download_url": "https://raw.githubusercontent.com/microsoft/qlib/main/.mypy.ini",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/microsoft/qlib/contents/.mypy.ini?ref=main",
+              "git": "https://api.github.com/repos/microsoft/qlib/git/blobs/d4baf0c33598492811b5b8c69c6d1b41a36e56ad",
+              "html": "https://github.com/microsoft/qlib/blob/main/.mypy.ini"
+            }
+          },
+          {
+            "name": ".pre-commit-config.yaml",
+            "path": ".pre-commit-config.yaml",
+            "sha": "15f00414c93d1614cf0e3dc1fe45c62cc317de0d",
+            "size": 278,
+            "url": "https://api.github.com/repos/microsoft/qlib/contents/.pre-commit-config.yaml?ref=main",
+            "html_url": "https://github.com/microsoft/qlib/blob/main/.pre-commit-config.yaml",
+            "git_url": "https://api.github.com/repos/microsoft/qlib/git/blobs/15f00414c93d1614cf0e3dc1fe45c62cc317de0d",
+            "download_url": "https://raw.githubusercontent.com/microsoft/qlib/main/.pre-commit-config.yaml",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/microsoft/qlib/contents/.pre-commit-config.yaml?ref=main",
+              "git": "https://api.github.com/repos/microsoft/qlib/git/blobs/15f00414c93d1614cf0e3dc1fe45c62cc317de0d",
+              "html": "https://github.com/microsoft/qlib/blob/main/.pre-commit-config.yaml"
+            }
+          },
+          {
+            "name": ".pylintrc",
+            "path": ".pylintrc",
+            "sha": "6510d21efbcd0daadf0463ca25aeef7f28b59bfb",
+            "size": 218,
+            "url": "https://api.github.com/repos/microsoft/qlib/contents/.pylintrc?ref=main",
+            "html_url": "https://github.com/microsoft/qlib/blob/main/.pylintrc",
+            "git_url": "https://api.github.com/repos/microsoft/qlib/git/blobs/6510d21efbcd0daadf0463ca25aeef7f28b59bfb",
+            "download_url": "https://raw.githubusercontent.com/microsoft/qlib/main/.pylintrc",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/microsoft/qlib/contents/.pylintrc?ref=main",
+              "git": "https://api.github.com/repos/microsoft/qlib/git/blobs/6510d21efbcd0daadf0463ca25aeef7f28b59bfb",
+              "html": "https://github.com/microsoft/qlib/blob/main/.pylintrc"
+            }
+          },
+          {
+            "name": ".readthedocs.yaml",
+            "path": ".readthedocs.yaml",
+            "sha": "cc939ff80941516248a50fe976d5e34c696ab50c",
+            "size": 574,
+            "url": "https://api.github.com/repos/microsoft/qlib/contents/.readthedocs.yaml?ref=main",
+            "html_url": "https://github.com/microsoft/qlib/blob/main/.readthedocs.yaml",
+            "git_url": "https://api.github.com/repos/microsoft/qlib/git/blobs/cc939ff80941516248a50fe976d5e34c696ab50c",
+            "download_url": "https://raw.githubusercontent.com/microsoft/qlib/main/.readthedocs.yaml",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/microsoft/qlib/contents/.readthedocs.yaml?ref=main",
+              "git": "https://api.github.com/repos/microsoft/qlib/git/blobs/cc939ff80941516248a50fe976d5e34c696ab50c",
+              "html": "https://github.com/microsoft/qlib/blob/main/.readthedocs.yaml"
+            }
+          },
+          {
+            "name": "CHANGELOG.md",
+            "path": "CHANGELOG.md",
+            "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+            "size": 0,
+            "url": "https://api.github.com/repos/microsoft/qlib/contents/CHANGELOG.md?ref=main",
+            "html_url": "https://github.com/microsoft/qlib/blob/main/CHANGELOG.md",
+            "git_url": "https://api.github.com/repos/microsoft/qlib/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+            "download_url": "https://raw.githubusercontent.com/microsoft/qlib/main/CHANGELOG.md",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/microsoft/qlib/contents/CHANGELOG.md?ref=main",
+              "git": "https://api.github.com/repos/microsoft/qlib/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+              "html": "https://github.com/microsoft/qlib/blob/main/CHANGELOG.md"
+            }
+          },
+          {
+            "name": "CHANGES.rst",
+            "path": "CHANGES.rst",
+            "sha": "76aa4829304b901b852db66880699a996799ae9d",
+            "size": 7611,
+            "url": "https://api.github.com/repos/microsoft/qlib/contents/CHANGES.rst?ref=main",
+            "html_url": "https://github.com/microsoft/qlib/blob/main/CHANGES.rst",
+            "git_url": "https://api.github.com/repos/microsoft/qlib/git/blobs/76aa4829304b901b852db66880699a996799ae9d",
+            "download_url": "https://raw.githubusercontent.com/microsoft/qlib/main/CHANGES.rst",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/microsoft/qlib/contents/CHANGES.rst?ref=main",
+              "git": "https://api.github.com/repos/microsoft/qlib/git/blobs/76aa4829304b901b852db66880699a996799ae9d",
+              "html": "https://github.com/microsoft/qlib/blob/main/CHANGES.rst"
+            }
+          },
+          {
+            "name": "CODE_OF_CONDUCT.md",
+            "path": "CODE_OF_CONDUCT.md",
+            "sha": "f9ba8cf65f3e3104dd061c178066ec8247811f33",
+            "size": 444,
+            "url": "https://api.github.com/repos/microsoft/qlib/contents/CODE_OF_CONDUCT.md?ref=main",
+            "html_url": "https://github.com/microsoft/qlib/blob/main/CODE_OF_CONDUCT.md",
+            "git_url": "https://api.github.com/repos/microsoft/qlib/git/blobs/f9ba8cf65f3e3104dd061c178066ec8247811f33",
+            "download_url": "https://raw.githubusercontent.com/microsoft/qlib/main/CODE_OF_CONDUCT.md",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/microsoft/qlib/contents/CODE_OF_CONDUCT.md?ref=main",
+              "git": "https://api.github.com/repos/microsoft/qlib/git/blobs/f9ba8cf65f3e3104dd061c178066ec8247811f33",
+              "html": "https://github.com/microsoft/qlib/blob/main/CODE_OF_CONDUCT.md"
+            }
+          },
+          {
+            "name": "Dockerfile",
+            "path": "Dockerfile",
+            "sha": "7eb8c315ccc3bd3db5f7c1584abb89ab1af2ab31",
+            "size": 796,
+            "url": "https://api.github.com/repos/microsoft/qlib/contents/Dockerfile?ref=main",
+            "html_url": "https://github.com/microsoft/qlib/blob/main/Dockerfile",
+            "git_url": "https://api.github.com/repos/microsoft/qlib/git/blobs/7eb8c315ccc3bd3db5f7c1584abb89ab1af2ab31",
+            "download_url": "https://raw.githubusercontent.com/microsoft/qlib/main/Dockerfile",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/microsoft/qlib/contents/Dockerfile?ref=main",
+              "git": "https://api.github.com/repos/microsoft/qlib/git/blobs/7eb8c315ccc3bd3db5f7c1584abb89ab1af2ab31",
+              "html": "https://github.com/microsoft/qlib/blob/main/Dockerfile"
+            }
+          },
+          {
+            "name": "LICENSE",
+            "path": "LICENSE",
+            "sha": "9e841e7a26e4eb057b24511e7b92d42b257a80e5",
+            "size": 1141,
+            "url": "https://api.github.com/repos/microsoft/qlib/contents/LICENSE?ref=main",
+            "html_url": "https://github.com/microsoft/qlib/blob/main/LICENSE",
+            "git_url": "https://api.github.com/repos/microsoft/qlib/git/blobs/9e841e7a26e4eb057b24511e7b92d42b257a80e5",
+            "download_url": "https://raw.githubusercontent.com/microsoft/qlib/main/LICENSE",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/microsoft/qlib/contents/LICENSE?ref=main",
+              "git": "https://api.github.com/repos/microsoft/qlib/git/blobs/9e841e7a26e4eb057b24511e7b92d42b257a80e5",
+              "html": "https://github.com/microsoft/qlib/blob/main/LICENSE"
+            }
+          },
+          {
+            "name": "MANIFEST.in",
+            "path": "MANIFEST.in",
+            "sha": "2b8421a53df19617ba75dcbcd58e56f33089d8da",
+            "size": 111,
+            "url": "https://api.github.com/repos/microsoft/qlib/contents/MANIFEST.in?ref=main",
+            "html_url": "https://github.com/microsoft/qlib/blob/main/MANIFEST.in",
+            "git_url": "https://api.github.com/repos/microsoft/qlib/git/blobs/2b8421a53df19617ba75dcbcd58e56f33089d8da",
+            "download_url": "https://raw.githubusercontent.com/microsoft/qlib/main/MANIFEST.in",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/microsoft/qlib/contents/MANIFEST.in?ref=main",
+              "git": "https://api.github.com/repos/microsoft/qlib/git/blobs/2b8421a53df19617ba75dcbcd58e56f33089d8da",
+              "html": "https://github.com/microsoft/qlib/blob/main/MANIFEST.in"
+            }
+          },
+          {
+            "name": "Makefile",
+            "path": "Makefile",
+            "sha": "6e13aa13641c1058d0673a8553f915e374942a5e",
+            "size": 8872,
+            "url": "https://api.github.com/repos/microsoft/qlib/contents/Makefile?ref=main",
+            "html_url": "https://github.com/microsoft/qlib/blob/main/Makefile",
+            "git_url": "https://api.github.com/repos/microsoft/qlib/git/blobs/6e13aa13641c1058d0673a8553f915e374942a5e",
+            "download_url": "https://raw.githubusercontent.com/microsoft/qlib/main/Makefile",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/microsoft/qlib/contents/Makefile?ref=main",
+              "git": "https://api.github.com/repos/microsoft/qlib/git/blobs/6e13aa13641c1058d0673a8553f915e374942a5e",
+              "html": "https://github.com/microsoft/qlib/blob/main/Makefile"
+            }
+          },
+          {
+            "name": "README.md",
+            "path": "README.md",
+            "sha": "809a17e25cd85e958c03c0d50f2ba72c6bf3c516",
+            "size": 43132,
+            "url": "https://api.github.com/repos/microsoft/qlib/contents/README.md?ref=main",
+            "html_url": "https://github.com/microsoft/qlib/blob/main/README.md",
+            "git_url": "https://api.github.com/repos/microsoft/qlib/git/blobs/809a17e25cd85e958c03c0d50f2ba72c6bf3c516",
+            "download_url": "https://raw.githubusercontent.com/microsoft/qlib/main/README.md",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/microsoft/qlib/contents/README.md?ref=main",
+              "git": "https://api.github.com/repos/microsoft/qlib/git/blobs/809a17e25cd85e958c03c0d50f2ba72c6bf3c516",
+              "html": "https://github.com/microsoft/qlib/blob/main/README.md"
+            }
+          },
+          {
+            "name": "SECURITY.md",
+            "path": "SECURITY.md",
+            "sha": "f7b89984f0fb5dd204028bc525e19eefc0859f4f",
+            "size": 2780,
+            "url": "https://api.github.com/repos/microsoft/qlib/contents/SECURITY.md?ref=main",
+            "html_url": "https://github.com/microsoft/qlib/blob/main/SECURITY.md",
+            "git_url": "https://api.github.com/repos/microsoft/qlib/git/blobs/f7b89984f0fb5dd204028bc525e19eefc0859f4f",
+            "download_url": "https://raw.githubusercontent.com/microsoft/qlib/main/SECURITY.md",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/microsoft/qlib/contents/SECURITY.md?ref=main",
+              "git": "https://api.github.com/repos/microsoft/qlib/git/blobs/f7b89984f0fb5dd204028bc525e19eefc0859f4f",
+              "html": "https://github.com/microsoft/qlib/blob/main/SECURITY.md"
+            }
+          },
+          {
+            "name": "build_docker_image.sh",
+            "path": "build_docker_image.sh",
+            "sha": "4acf963a2c044896cd66c8939a7b71927cb4991f",
+            "size": 1069,
+            "url": "https://api.github.com/repos/microsoft/qlib/contents/build_docker_image.sh?ref=main",
+            "html_url": "https://github.com/microsoft/qlib/blob/main/build_docker_image.sh",
+            "git_url": "https://api.github.com/repos/microsoft/qlib/git/blobs/4acf963a2c044896cd66c8939a7b71927cb4991f",
+            "download_url": "https://raw.githubusercontent.com/microsoft/qlib/main/build_docker_image.sh",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/microsoft/qlib/contents/build_docker_image.sh?ref=main",
+              "git": "https://api.github.com/repos/microsoft/qlib/git/blobs/4acf963a2c044896cd66c8939a7b71927cb4991f",
+              "html": "https://github.com/microsoft/qlib/blob/main/build_docker_image.sh"
+            }
+          },
+          {
+            "name": "docs",
+            "path": "docs",
+            "sha": "08869a0fb2b9b3aefe6ef159be60dd721320a1dc",
+            "size": 0,
+            "url": "https://api.github.com/repos/microsoft/qlib/contents/docs?ref=main",
+            "html_url": "https://github.com/microsoft/qlib/tree/main/docs",
+            "git_url": "https://api.github.com/repos/microsoft/qlib/git/trees/08869a0fb2b9b3aefe6ef159be60dd721320a1dc",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/microsoft/qlib/contents/docs?ref=main",
+              "git": "https://api.github.com/repos/microsoft/qlib/git/trees/08869a0fb2b9b3aefe6ef159be60dd721320a1dc",
+              "html": "https://github.com/microsoft/qlib/tree/main/docs"
+            }
+          },
+          {
+            "name": "examples",
+            "path": "examples",
+            "sha": "8b4f79ee266daa5e98771a1e07c045a460842a33",
+            "size": 0,
+            "url": "https://api.github.com/repos/microsoft/qlib/contents/examples?ref=main",
+            "html_url": "https://github.com/microsoft/qlib/tree/main/examples",
+            "git_url": "https://api.github.com/repos/microsoft/qlib/git/trees/8b4f79ee266daa5e98771a1e07c045a460842a33",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/microsoft/qlib/contents/examples?ref=main",
+              "git": "https://api.github.com/repos/microsoft/qlib/git/trees/8b4f79ee266daa5e98771a1e07c045a460842a33",
+              "html": "https://github.com/microsoft/qlib/tree/main/examples"
+            }
+          },
+          {
+            "name": "pyproject.toml",
+            "path": "pyproject.toml",
+            "sha": "fe48d090c0b3191e2e0cf63336a2d6d78975f62a",
+            "size": 3291,
+            "url": "https://api.github.com/repos/microsoft/qlib/contents/pyproject.toml?ref=main",
+            "html_url": "https://github.com/microsoft/qlib/blob/main/pyproject.toml",
+            "git_url": "https://api.github.com/repos/microsoft/qlib/git/blobs/fe48d090c0b3191e2e0cf63336a2d6d78975f62a",
+            "download_url": "https://raw.githubusercontent.com/microsoft/qlib/main/pyproject.toml",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/microsoft/qlib/contents/pyproject.toml?ref=main",
+              "git": "https://api.github.com/repos/microsoft/qlib/git/blobs/fe48d090c0b3191e2e0cf63336a2d6d78975f62a",
+              "html": "https://github.com/microsoft/qlib/blob/main/pyproject.toml"
+            }
+          },
+          {
+            "name": "qlib",
+            "path": "qlib",
+            "sha": "9b6126d16550520e46f5875815bb67598268e69b",
+            "size": 0,
+            "url": "https://api.github.com/repos/microsoft/qlib/contents/qlib?ref=main",
+            "html_url": "https://github.com/microsoft/qlib/tree/main/qlib",
+            "git_url": "https://api.github.com/repos/microsoft/qlib/git/trees/9b6126d16550520e46f5875815bb67598268e69b",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/microsoft/qlib/contents/qlib?ref=main",
+              "git": "https://api.github.com/repos/microsoft/qlib/git/trees/9b6126d16550520e46f5875815bb67598268e69b",
+              "html": "https://github.com/microsoft/qlib/tree/main/qlib"
+            }
+          },
+          {
+            "name": "scripts",
+            "path": "scripts",
+            "sha": "05a7a526d229de35dacb09fe621ffc181245e5e2",
+            "size": 0,
+            "url": "https://api.github.com/repos/microsoft/qlib/contents/scripts?ref=main",
+            "html_url": "https://github.com/microsoft/qlib/tree/main/scripts",
+            "git_url": "https://api.github.com/repos/microsoft/qlib/git/trees/05a7a526d229de35dacb09fe621ffc181245e5e2",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/microsoft/qlib/contents/scripts?ref=main",
+              "git": "https://api.github.com/repos/microsoft/qlib/git/trees/05a7a526d229de35dacb09fe621ffc181245e5e2",
+              "html": "https://github.com/microsoft/qlib/tree/main/scripts"
+            }
+          },
+          {
+            "name": "setup.py",
+            "path": "setup.py",
+            "sha": "326dac8ed036bafe6ada1651bd568af37dc6ef95",
+            "size": 807,
+            "url": "https://api.github.com/repos/microsoft/qlib/contents/setup.py?ref=main",
+            "html_url": "https://github.com/microsoft/qlib/blob/main/setup.py",
+            "git_url": "https://api.github.com/repos/microsoft/qlib/git/blobs/326dac8ed036bafe6ada1651bd568af37dc6ef95",
+            "download_url": "https://raw.githubusercontent.com/microsoft/qlib/main/setup.py",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/microsoft/qlib/contents/setup.py?ref=main",
+              "git": "https://api.github.com/repos/microsoft/qlib/git/blobs/326dac8ed036bafe6ada1651bd568af37dc6ef95",
+              "html": "https://github.com/microsoft/qlib/blob/main/setup.py"
+            }
+          },
+          {
+            "name": "tests",
+            "path": "tests",
+            "sha": "393425e4d8cbb69f1cad6e7901043558b7abfa6d",
+            "size": 0,
+            "url": "https://api.github.com/repos/microsoft/qlib/contents/tests?ref=main",
+            "html_url": "https://github.com/microsoft/qlib/tree/main/tests",
+            "git_url": "https://api.github.com/repos/microsoft/qlib/git/trees/393425e4d8cbb69f1cad6e7901043558b7abfa6d",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/microsoft/qlib/contents/tests?ref=main",
+              "git": "https://api.github.com/repos/microsoft/qlib/git/trees/393425e4d8cbb69f1cad6e7901043558b7abfa6d",
+              "html": "https://github.com/microsoft/qlib/tree/main/tests"
+            }
+          }
+        ]
+      },
+      "timestamp": "2025-09-07T19:34:30.511435"
+    },
+    "eb33534263885bf94fa810a1c8aa40f3": {
+      "repo_url": "https://github.com/Vendicated/Vencord",
+      "pattern_data": {
+        "owner": "Vendicated",
+        "repo": "Vencord",
+        "name": "Vencord",
+        "description": "The cutest Discord modification",
+        "language": "TypeScript",
+        "frameworks": [
+          "React",
+          "Vue",
+          "Angular",
+          "Express"
+        ],
+        "stars": 11575,
+        "forks": 1732,
+        "contents": [
+          {
+            "name": ".editorconfig",
+            "path": ".editorconfig",
+            "sha": "c1e2c64351fc26f9c897bc0f2dcbbd34c4ace7b0",
+            "size": 229,
+            "url": "https://api.github.com/repos/Vendicated/Vencord/contents/.editorconfig?ref=main",
+            "html_url": "https://github.com/Vendicated/Vencord/blob/main/.editorconfig",
+            "git_url": "https://api.github.com/repos/Vendicated/Vencord/git/blobs/c1e2c64351fc26f9c897bc0f2dcbbd34c4ace7b0",
+            "download_url": "https://raw.githubusercontent.com/Vendicated/Vencord/main/.editorconfig",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/Vendicated/Vencord/contents/.editorconfig?ref=main",
+              "git": "https://api.github.com/repos/Vendicated/Vencord/git/blobs/c1e2c64351fc26f9c897bc0f2dcbbd34c4ace7b0",
+              "html": "https://github.com/Vendicated/Vencord/blob/main/.editorconfig"
+            }
+          },
+          {
+            "name": ".gitattributes",
+            "path": ".gitattributes",
+            "sha": "6313b56c57848efce05faa7aa7e901ccfc2886ea",
+            "size": 19,
+            "url": "https://api.github.com/repos/Vendicated/Vencord/contents/.gitattributes?ref=main",
+            "html_url": "https://github.com/Vendicated/Vencord/blob/main/.gitattributes",
+            "git_url": "https://api.github.com/repos/Vendicated/Vencord/git/blobs/6313b56c57848efce05faa7aa7e901ccfc2886ea",
+            "download_url": "https://raw.githubusercontent.com/Vendicated/Vencord/main/.gitattributes",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/Vendicated/Vencord/contents/.gitattributes?ref=main",
+              "git": "https://api.github.com/repos/Vendicated/Vencord/git/blobs/6313b56c57848efce05faa7aa7e901ccfc2886ea",
+              "html": "https://github.com/Vendicated/Vencord/blob/main/.gitattributes"
+            }
+          },
+          {
+            "name": ".github",
+            "path": ".github",
+            "sha": "10b18c58a3840cbd5cc921e4c79a40fe168b1b7b",
+            "size": 0,
+            "url": "https://api.github.com/repos/Vendicated/Vencord/contents/.github?ref=main",
+            "html_url": "https://github.com/Vendicated/Vencord/tree/main/.github",
+            "git_url": "https://api.github.com/repos/Vendicated/Vencord/git/trees/10b18c58a3840cbd5cc921e4c79a40fe168b1b7b",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/Vendicated/Vencord/contents/.github?ref=main",
+              "git": "https://api.github.com/repos/Vendicated/Vencord/git/trees/10b18c58a3840cbd5cc921e4c79a40fe168b1b7b",
+              "html": "https://github.com/Vendicated/Vencord/tree/main/.github"
+            }
+          },
+          {
+            "name": ".gitignore",
+            "path": ".gitignore",
+            "sha": "e45af171b3e0119181f145003fbca8b8fdacc4e3",
+            "size": 244,
+            "url": "https://api.github.com/repos/Vendicated/Vencord/contents/.gitignore?ref=main",
+            "html_url": "https://github.com/Vendicated/Vencord/blob/main/.gitignore",
+            "git_url": "https://api.github.com/repos/Vendicated/Vencord/git/blobs/e45af171b3e0119181f145003fbca8b8fdacc4e3",
+            "download_url": "https://raw.githubusercontent.com/Vendicated/Vencord/main/.gitignore",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/Vendicated/Vencord/contents/.gitignore?ref=main",
+              "git": "https://api.github.com/repos/Vendicated/Vencord/git/blobs/e45af171b3e0119181f145003fbca8b8fdacc4e3",
+              "html": "https://github.com/Vendicated/Vencord/blob/main/.gitignore"
+            }
+          },
+          {
+            "name": ".npmrc",
+            "path": ".npmrc",
+            "sha": "336b6ad132a49f555ecd49d8442b834ea192511e",
+            "size": 60,
+            "url": "https://api.github.com/repos/Vendicated/Vencord/contents/.npmrc?ref=main",
+            "html_url": "https://github.com/Vendicated/Vencord/blob/main/.npmrc",
+            "git_url": "https://api.github.com/repos/Vendicated/Vencord/git/blobs/336b6ad132a49f555ecd49d8442b834ea192511e",
+            "download_url": "https://raw.githubusercontent.com/Vendicated/Vencord/main/.npmrc",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/Vendicated/Vencord/contents/.npmrc?ref=main",
+              "git": "https://api.github.com/repos/Vendicated/Vencord/git/blobs/336b6ad132a49f555ecd49d8442b834ea192511e",
+              "html": "https://github.com/Vendicated/Vencord/blob/main/.npmrc"
+            }
+          },
+          {
+            "name": ".stylelintrc.json",
+            "path": ".stylelintrc.json",
+            "sha": "682695c0740b16276e187bf64b1d9ee0b1b459fa",
+            "size": 296,
+            "url": "https://api.github.com/repos/Vendicated/Vencord/contents/.stylelintrc.json?ref=main",
+            "html_url": "https://github.com/Vendicated/Vencord/blob/main/.stylelintrc.json",
+            "git_url": "https://api.github.com/repos/Vendicated/Vencord/git/blobs/682695c0740b16276e187bf64b1d9ee0b1b459fa",
+            "download_url": "https://raw.githubusercontent.com/Vendicated/Vencord/main/.stylelintrc.json",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/Vendicated/Vencord/contents/.stylelintrc.json?ref=main",
+              "git": "https://api.github.com/repos/Vendicated/Vencord/git/blobs/682695c0740b16276e187bf64b1d9ee0b1b459fa",
+              "html": "https://github.com/Vendicated/Vencord/blob/main/.stylelintrc.json"
+            }
+          },
+          {
+            "name": ".vscode",
+            "path": ".vscode",
+            "sha": "0f50a6764d6dffe4272bcd996166b49b0dd5ca0f",
+            "size": 0,
+            "url": "https://api.github.com/repos/Vendicated/Vencord/contents/.vscode?ref=main",
+            "html_url": "https://github.com/Vendicated/Vencord/tree/main/.vscode",
+            "git_url": "https://api.github.com/repos/Vendicated/Vencord/git/trees/0f50a6764d6dffe4272bcd996166b49b0dd5ca0f",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/Vendicated/Vencord/contents/.vscode?ref=main",
+              "git": "https://api.github.com/repos/Vendicated/Vencord/git/trees/0f50a6764d6dffe4272bcd996166b49b0dd5ca0f",
+              "html": "https://github.com/Vendicated/Vencord/tree/main/.vscode"
+            }
+          },
+          {
+            "name": "CODE_OF_CONDUCT.md",
+            "path": "CODE_OF_CONDUCT.md",
+            "sha": "a9e8c3e8d3f73c1dcf137aafa0e2215000ef3dd8",
+            "size": 812,
+            "url": "https://api.github.com/repos/Vendicated/Vencord/contents/CODE_OF_CONDUCT.md?ref=main",
+            "html_url": "https://github.com/Vendicated/Vencord/blob/main/CODE_OF_CONDUCT.md",
+            "git_url": "https://api.github.com/repos/Vendicated/Vencord/git/blobs/a9e8c3e8d3f73c1dcf137aafa0e2215000ef3dd8",
+            "download_url": "https://raw.githubusercontent.com/Vendicated/Vencord/main/CODE_OF_CONDUCT.md",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/Vendicated/Vencord/contents/CODE_OF_CONDUCT.md?ref=main",
+              "git": "https://api.github.com/repos/Vendicated/Vencord/git/blobs/a9e8c3e8d3f73c1dcf137aafa0e2215000ef3dd8",
+              "html": "https://github.com/Vendicated/Vencord/blob/main/CODE_OF_CONDUCT.md"
+            }
+          },
+          {
+            "name": "CONTRIBUTING.md",
+            "path": "CONTRIBUTING.md",
+            "sha": "0146065e00a9baf948da93eb77acada2e14171d6",
+            "size": 3227,
+            "url": "https://api.github.com/repos/Vendicated/Vencord/contents/CONTRIBUTING.md?ref=main",
+            "html_url": "https://github.com/Vendicated/Vencord/blob/main/CONTRIBUTING.md",
+            "git_url": "https://api.github.com/repos/Vendicated/Vencord/git/blobs/0146065e00a9baf948da93eb77acada2e14171d6",
+            "download_url": "https://raw.githubusercontent.com/Vendicated/Vencord/main/CONTRIBUTING.md",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/Vendicated/Vencord/contents/CONTRIBUTING.md?ref=main",
+              "git": "https://api.github.com/repos/Vendicated/Vencord/git/blobs/0146065e00a9baf948da93eb77acada2e14171d6",
+              "html": "https://github.com/Vendicated/Vencord/blob/main/CONTRIBUTING.md"
+            }
+          },
+          {
+            "name": "LICENSE",
+            "path": "LICENSE",
+            "sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+            "size": 35149,
+            "url": "https://api.github.com/repos/Vendicated/Vencord/contents/LICENSE?ref=main",
+            "html_url": "https://github.com/Vendicated/Vencord/blob/main/LICENSE",
+            "git_url": "https://api.github.com/repos/Vendicated/Vencord/git/blobs/f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+            "download_url": "https://raw.githubusercontent.com/Vendicated/Vencord/main/LICENSE",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/Vendicated/Vencord/contents/LICENSE?ref=main",
+              "git": "https://api.github.com/repos/Vendicated/Vencord/git/blobs/f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+              "html": "https://github.com/Vendicated/Vencord/blob/main/LICENSE"
+            }
+          },
+          {
+            "name": "README.md",
+            "path": "README.md",
+            "sha": "52d3c1b609f79aaeb5b13385018775baab475a78",
+            "size": 6817,
+            "url": "https://api.github.com/repos/Vendicated/Vencord/contents/README.md?ref=main",
+            "html_url": "https://github.com/Vendicated/Vencord/blob/main/README.md",
+            "git_url": "https://api.github.com/repos/Vendicated/Vencord/git/blobs/52d3c1b609f79aaeb5b13385018775baab475a78",
+            "download_url": "https://raw.githubusercontent.com/Vendicated/Vencord/main/README.md",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/Vendicated/Vencord/contents/README.md?ref=main",
+              "git": "https://api.github.com/repos/Vendicated/Vencord/git/blobs/52d3c1b609f79aaeb5b13385018775baab475a78",
+              "html": "https://github.com/Vendicated/Vencord/blob/main/README.md"
+            }
+          },
+          {
+            "name": "browser",
+            "path": "browser",
+            "sha": "5769baac29cc0827cf2beaa4b6f4e8ea0aadddb7",
+            "size": 0,
+            "url": "https://api.github.com/repos/Vendicated/Vencord/contents/browser?ref=main",
+            "html_url": "https://github.com/Vendicated/Vencord/tree/main/browser",
+            "git_url": "https://api.github.com/repos/Vendicated/Vencord/git/trees/5769baac29cc0827cf2beaa4b6f4e8ea0aadddb7",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/Vendicated/Vencord/contents/browser?ref=main",
+              "git": "https://api.github.com/repos/Vendicated/Vencord/git/trees/5769baac29cc0827cf2beaa4b6f4e8ea0aadddb7",
+              "html": "https://github.com/Vendicated/Vencord/tree/main/browser"
+            }
+          },
+          {
+            "name": "eslint.config.mjs",
+            "path": "eslint.config.mjs",
+            "sha": "d59c375328a72b28254404bc88d11647030c6389",
+            "size": 5745,
+            "url": "https://api.github.com/repos/Vendicated/Vencord/contents/eslint.config.mjs?ref=main",
+            "html_url": "https://github.com/Vendicated/Vencord/blob/main/eslint.config.mjs",
+            "git_url": "https://api.github.com/repos/Vendicated/Vencord/git/blobs/d59c375328a72b28254404bc88d11647030c6389",
+            "download_url": "https://raw.githubusercontent.com/Vendicated/Vencord/main/eslint.config.mjs",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/Vendicated/Vencord/contents/eslint.config.mjs?ref=main",
+              "git": "https://api.github.com/repos/Vendicated/Vencord/git/blobs/d59c375328a72b28254404bc88d11647030c6389",
+              "html": "https://github.com/Vendicated/Vencord/blob/main/eslint.config.mjs"
+            }
+          },
+          {
+            "name": "package.json",
+            "path": "package.json",
+            "sha": "3f0e3371f5bb0795e48009ac77838a3be9fdd239",
+            "size": 4104,
+            "url": "https://api.github.com/repos/Vendicated/Vencord/contents/package.json?ref=main",
+            "html_url": "https://github.com/Vendicated/Vencord/blob/main/package.json",
+            "git_url": "https://api.github.com/repos/Vendicated/Vencord/git/blobs/3f0e3371f5bb0795e48009ac77838a3be9fdd239",
+            "download_url": "https://raw.githubusercontent.com/Vendicated/Vencord/main/package.json",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/Vendicated/Vencord/contents/package.json?ref=main",
+              "git": "https://api.github.com/repos/Vendicated/Vencord/git/blobs/3f0e3371f5bb0795e48009ac77838a3be9fdd239",
+              "html": "https://github.com/Vendicated/Vencord/blob/main/package.json"
+            }
+          },
+          {
+            "name": "packages",
+            "path": "packages",
+            "sha": "fc16c5f91e2aedee7068ca8927c8166960031dc9",
+            "size": 0,
+            "url": "https://api.github.com/repos/Vendicated/Vencord/contents/packages?ref=main",
+            "html_url": "https://github.com/Vendicated/Vencord/tree/main/packages",
+            "git_url": "https://api.github.com/repos/Vendicated/Vencord/git/trees/fc16c5f91e2aedee7068ca8927c8166960031dc9",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/Vendicated/Vencord/contents/packages?ref=main",
+              "git": "https://api.github.com/repos/Vendicated/Vencord/git/trees/fc16c5f91e2aedee7068ca8927c8166960031dc9",
+              "html": "https://github.com/Vendicated/Vencord/tree/main/packages"
+            }
+          },
+          {
+            "name": "patches",
+            "path": "patches",
+            "sha": "c7376824ee3e1b4edf818ba262cbe6f4f0206b81",
+            "size": 0,
+            "url": "https://api.github.com/repos/Vendicated/Vencord/contents/patches?ref=main",
+            "html_url": "https://github.com/Vendicated/Vencord/tree/main/patches",
+            "git_url": "https://api.github.com/repos/Vendicated/Vencord/git/trees/c7376824ee3e1b4edf818ba262cbe6f4f0206b81",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/Vendicated/Vencord/contents/patches?ref=main",
+              "git": "https://api.github.com/repos/Vendicated/Vencord/git/trees/c7376824ee3e1b4edf818ba262cbe6f4f0206b81",
+              "html": "https://github.com/Vendicated/Vencord/tree/main/patches"
+            }
+          },
+          {
+            "name": "pnpm-lock.yaml",
+            "path": "pnpm-lock.yaml",
+            "sha": "cde57a1f526f0196fa3f48e69ed8a6a9f19ea9bb",
+            "size": 167816,
+            "url": "https://api.github.com/repos/Vendicated/Vencord/contents/pnpm-lock.yaml?ref=main",
+            "html_url": "https://github.com/Vendicated/Vencord/blob/main/pnpm-lock.yaml",
+            "git_url": "https://api.github.com/repos/Vendicated/Vencord/git/blobs/cde57a1f526f0196fa3f48e69ed8a6a9f19ea9bb",
+            "download_url": "https://raw.githubusercontent.com/Vendicated/Vencord/main/pnpm-lock.yaml",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/Vendicated/Vencord/contents/pnpm-lock.yaml?ref=main",
+              "git": "https://api.github.com/repos/Vendicated/Vencord/git/blobs/cde57a1f526f0196fa3f48e69ed8a6a9f19ea9bb",
+              "html": "https://github.com/Vendicated/Vencord/blob/main/pnpm-lock.yaml"
+            }
+          },
+          {
+            "name": "pnpm-workspace.yaml",
+            "path": "pnpm-workspace.yaml",
+            "sha": "9bec5ba55f2d10daa5a56451ea5e5a01c0b2f6a9",
+            "size": 27,
+            "url": "https://api.github.com/repos/Vendicated/Vencord/contents/pnpm-workspace.yaml?ref=main",
+            "html_url": "https://github.com/Vendicated/Vencord/blob/main/pnpm-workspace.yaml",
+            "git_url": "https://api.github.com/repos/Vendicated/Vencord/git/blobs/9bec5ba55f2d10daa5a56451ea5e5a01c0b2f6a9",
+            "download_url": "https://raw.githubusercontent.com/Vendicated/Vencord/main/pnpm-workspace.yaml",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/Vendicated/Vencord/contents/pnpm-workspace.yaml?ref=main",
+              "git": "https://api.github.com/repos/Vendicated/Vencord/git/blobs/9bec5ba55f2d10daa5a56451ea5e5a01c0b2f6a9",
+              "html": "https://github.com/Vendicated/Vencord/blob/main/pnpm-workspace.yaml"
+            }
+          },
+          {
+            "name": "scripts",
+            "path": "scripts",
+            "sha": "aafb4d993b09e72c286160604ad8bab55e401a46",
+            "size": 0,
+            "url": "https://api.github.com/repos/Vendicated/Vencord/contents/scripts?ref=main",
+            "html_url": "https://github.com/Vendicated/Vencord/tree/main/scripts",
+            "git_url": "https://api.github.com/repos/Vendicated/Vencord/git/trees/aafb4d993b09e72c286160604ad8bab55e401a46",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/Vendicated/Vencord/contents/scripts?ref=main",
+              "git": "https://api.github.com/repos/Vendicated/Vencord/git/trees/aafb4d993b09e72c286160604ad8bab55e401a46",
+              "html": "https://github.com/Vendicated/Vencord/tree/main/scripts"
+            }
+          },
+          {
+            "name": "src",
+            "path": "src",
+            "sha": "d02360698166e3f75579e6189d3b8fc8d1bbba86",
+            "size": 0,
+            "url": "https://api.github.com/repos/Vendicated/Vencord/contents/src?ref=main",
+            "html_url": "https://github.com/Vendicated/Vencord/tree/main/src",
+            "git_url": "https://api.github.com/repos/Vendicated/Vencord/git/trees/d02360698166e3f75579e6189d3b8fc8d1bbba86",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/Vendicated/Vencord/contents/src?ref=main",
+              "git": "https://api.github.com/repos/Vendicated/Vencord/git/trees/d02360698166e3f75579e6189d3b8fc8d1bbba86",
+              "html": "https://github.com/Vendicated/Vencord/tree/main/src"
+            }
+          },
+          {
+            "name": "tsconfig.json",
+            "path": "tsconfig.json",
+            "sha": "0123021c0cd448da8feedce0da6bf5e2309852b8",
+            "size": 1437,
+            "url": "https://api.github.com/repos/Vendicated/Vencord/contents/tsconfig.json?ref=main",
+            "html_url": "https://github.com/Vendicated/Vencord/blob/main/tsconfig.json",
+            "git_url": "https://api.github.com/repos/Vendicated/Vencord/git/blobs/0123021c0cd448da8feedce0da6bf5e2309852b8",
+            "download_url": "https://raw.githubusercontent.com/Vendicated/Vencord/main/tsconfig.json",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/Vendicated/Vencord/contents/tsconfig.json?ref=main",
+              "git": "https://api.github.com/repos/Vendicated/Vencord/git/blobs/0123021c0cd448da8feedce0da6bf5e2309852b8",
+              "html": "https://github.com/Vendicated/Vencord/blob/main/tsconfig.json"
+            }
+          }
+        ]
+      },
+      "timestamp": "2025-09-07T23:29:56.704858"
+    },
+    "2858f92d897dcacd9c8e68dce8770896": {
+      "repo_url": "https://github.com/immortalwrt/immortalwrt",
+      "pattern_data": {
+        "owner": "immortalwrt",
+        "repo": "immortalwrt",
+        "name": "immortalwrt",
+        "description": "An opensource OpenWrt variant for mainland China users.",
+        "language": "C",
+        "frameworks": [],
+        "stars": 8812,
+        "forks": 2686,
+        "contents": [
+          {
+            "name": ".devcontainer",
+            "path": ".devcontainer",
+            "sha": "9cb285aab1fd22aff4e86899a4772a70999f3ce5",
+            "size": 0,
+            "url": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/.devcontainer?ref=master",
+            "html_url": "https://github.com/immortalwrt/immortalwrt/tree/master/.devcontainer",
+            "git_url": "https://api.github.com/repos/immortalwrt/immortalwrt/git/trees/9cb285aab1fd22aff4e86899a4772a70999f3ce5",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/.devcontainer?ref=master",
+              "git": "https://api.github.com/repos/immortalwrt/immortalwrt/git/trees/9cb285aab1fd22aff4e86899a4772a70999f3ce5",
+              "html": "https://github.com/immortalwrt/immortalwrt/tree/master/.devcontainer"
+            }
+          },
+          {
+            "name": ".gitattributes",
+            "path": ".gitattributes",
+            "sha": "ab4772b9c618d6b16f9c87a4509d08633c78a46c",
+            "size": 97,
+            "url": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/.gitattributes?ref=master",
+            "html_url": "https://github.com/immortalwrt/immortalwrt/blob/master/.gitattributes",
+            "git_url": "https://api.github.com/repos/immortalwrt/immortalwrt/git/blobs/ab4772b9c618d6b16f9c87a4509d08633c78a46c",
+            "download_url": "https://raw.githubusercontent.com/immortalwrt/immortalwrt/master/.gitattributes",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/.gitattributes?ref=master",
+              "git": "https://api.github.com/repos/immortalwrt/immortalwrt/git/blobs/ab4772b9c618d6b16f9c87a4509d08633c78a46c",
+              "html": "https://github.com/immortalwrt/immortalwrt/blob/master/.gitattributes"
+            }
+          },
+          {
+            "name": ".github",
+            "path": ".github",
+            "sha": "ab0214f619fb968d9a5f3fa655454de1adff2826",
+            "size": 0,
+            "url": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/.github?ref=master",
+            "html_url": "https://github.com/immortalwrt/immortalwrt/tree/master/.github",
+            "git_url": "https://api.github.com/repos/immortalwrt/immortalwrt/git/trees/ab0214f619fb968d9a5f3fa655454de1adff2826",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/.github?ref=master",
+              "git": "https://api.github.com/repos/immortalwrt/immortalwrt/git/trees/ab0214f619fb968d9a5f3fa655454de1adff2826",
+              "html": "https://github.com/immortalwrt/immortalwrt/tree/master/.github"
+            }
+          },
+          {
+            "name": ".gitignore",
+            "path": ".gitignore",
+            "sha": "ad0475591915f499839bc3a0c4bedbb6011bd31e",
+            "size": 362,
+            "url": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/.gitignore?ref=master",
+            "html_url": "https://github.com/immortalwrt/immortalwrt/blob/master/.gitignore",
+            "git_url": "https://api.github.com/repos/immortalwrt/immortalwrt/git/blobs/ad0475591915f499839bc3a0c4bedbb6011bd31e",
+            "download_url": "https://raw.githubusercontent.com/immortalwrt/immortalwrt/master/.gitignore",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/.gitignore?ref=master",
+              "git": "https://api.github.com/repos/immortalwrt/immortalwrt/git/blobs/ad0475591915f499839bc3a0c4bedbb6011bd31e",
+              "html": "https://github.com/immortalwrt/immortalwrt/blob/master/.gitignore"
+            }
+          },
+          {
+            "name": ".vscode",
+            "path": ".vscode",
+            "sha": "fe64d339f6767c7f7f70a9688945ec120b72e0b2",
+            "size": 0,
+            "url": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/.vscode?ref=master",
+            "html_url": "https://github.com/immortalwrt/immortalwrt/tree/master/.vscode",
+            "git_url": "https://api.github.com/repos/immortalwrt/immortalwrt/git/trees/fe64d339f6767c7f7f70a9688945ec120b72e0b2",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/.vscode?ref=master",
+              "git": "https://api.github.com/repos/immortalwrt/immortalwrt/git/trees/fe64d339f6767c7f7f70a9688945ec120b72e0b2",
+              "html": "https://github.com/immortalwrt/immortalwrt/tree/master/.vscode"
+            }
+          },
+          {
+            "name": "BSDmakefile",
+            "path": "BSDmakefile",
+            "sha": "66fe08858f3a9b4ae24509a498cd601457c4c61e",
+            "size": 106,
+            "url": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/BSDmakefile?ref=master",
+            "html_url": "https://github.com/immortalwrt/immortalwrt/blob/master/BSDmakefile",
+            "git_url": "https://api.github.com/repos/immortalwrt/immortalwrt/git/blobs/66fe08858f3a9b4ae24509a498cd601457c4c61e",
+            "download_url": "https://raw.githubusercontent.com/immortalwrt/immortalwrt/master/BSDmakefile",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/BSDmakefile?ref=master",
+              "git": "https://api.github.com/repos/immortalwrt/immortalwrt/git/blobs/66fe08858f3a9b4ae24509a498cd601457c4c61e",
+              "html": "https://github.com/immortalwrt/immortalwrt/blob/master/BSDmakefile"
+            }
+          },
+          {
+            "name": "COPYING",
+            "path": "COPYING",
+            "sha": "7145632ad672d06f134abc5e8a71f9bd05cceaa1",
+            "size": 292,
+            "url": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/COPYING?ref=master",
+            "html_url": "https://github.com/immortalwrt/immortalwrt/blob/master/COPYING",
+            "git_url": "https://api.github.com/repos/immortalwrt/immortalwrt/git/blobs/7145632ad672d06f134abc5e8a71f9bd05cceaa1",
+            "download_url": "https://raw.githubusercontent.com/immortalwrt/immortalwrt/master/COPYING",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/COPYING?ref=master",
+              "git": "https://api.github.com/repos/immortalwrt/immortalwrt/git/blobs/7145632ad672d06f134abc5e8a71f9bd05cceaa1",
+              "html": "https://github.com/immortalwrt/immortalwrt/blob/master/COPYING"
+            }
+          },
+          {
+            "name": "Config.in",
+            "path": "Config.in",
+            "sha": "051d3264e25b43e4d51834000214b92c129492b1",
+            "size": 672,
+            "url": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/Config.in?ref=master",
+            "html_url": "https://github.com/immortalwrt/immortalwrt/blob/master/Config.in",
+            "git_url": "https://api.github.com/repos/immortalwrt/immortalwrt/git/blobs/051d3264e25b43e4d51834000214b92c129492b1",
+            "download_url": "https://raw.githubusercontent.com/immortalwrt/immortalwrt/master/Config.in",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/Config.in?ref=master",
+              "git": "https://api.github.com/repos/immortalwrt/immortalwrt/git/blobs/051d3264e25b43e4d51834000214b92c129492b1",
+              "html": "https://github.com/immortalwrt/immortalwrt/blob/master/Config.in"
+            }
+          },
+          {
+            "name": "LICENSES",
+            "path": "LICENSES",
+            "sha": "e9206dadfe9a7c9113a71ba08cd75b360e16c9a0",
+            "size": 0,
+            "url": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/LICENSES?ref=master",
+            "html_url": "https://github.com/immortalwrt/immortalwrt/tree/master/LICENSES",
+            "git_url": "https://api.github.com/repos/immortalwrt/immortalwrt/git/trees/e9206dadfe9a7c9113a71ba08cd75b360e16c9a0",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/LICENSES?ref=master",
+              "git": "https://api.github.com/repos/immortalwrt/immortalwrt/git/trees/e9206dadfe9a7c9113a71ba08cd75b360e16c9a0",
+              "html": "https://github.com/immortalwrt/immortalwrt/tree/master/LICENSES"
+            }
+          },
+          {
+            "name": "Makefile",
+            "path": "Makefile",
+            "sha": "7c52acccba416a86a347d2e852195b6ebd33d057",
+            "size": 4233,
+            "url": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/Makefile?ref=master",
+            "html_url": "https://github.com/immortalwrt/immortalwrt/blob/master/Makefile",
+            "git_url": "https://api.github.com/repos/immortalwrt/immortalwrt/git/blobs/7c52acccba416a86a347d2e852195b6ebd33d057",
+            "download_url": "https://raw.githubusercontent.com/immortalwrt/immortalwrt/master/Makefile",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/Makefile?ref=master",
+              "git": "https://api.github.com/repos/immortalwrt/immortalwrt/git/blobs/7c52acccba416a86a347d2e852195b6ebd33d057",
+              "html": "https://github.com/immortalwrt/immortalwrt/blob/master/Makefile"
+            }
+          },
+          {
+            "name": "README.md",
+            "path": "README.md",
+            "sha": "146570ff879c7d3fc8004e59c0136073a55092a0",
+            "size": 6676,
+            "url": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/README.md?ref=master",
+            "html_url": "https://github.com/immortalwrt/immortalwrt/blob/master/README.md",
+            "git_url": "https://api.github.com/repos/immortalwrt/immortalwrt/git/blobs/146570ff879c7d3fc8004e59c0136073a55092a0",
+            "download_url": "https://raw.githubusercontent.com/immortalwrt/immortalwrt/master/README.md",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/README.md?ref=master",
+              "git": "https://api.github.com/repos/immortalwrt/immortalwrt/git/blobs/146570ff879c7d3fc8004e59c0136073a55092a0",
+              "html": "https://github.com/immortalwrt/immortalwrt/blob/master/README.md"
+            }
+          },
+          {
+            "name": "config",
+            "path": "config",
+            "sha": "7051c2e95cdaf995f8af2fb11dc098c4eb7789a0",
+            "size": 0,
+            "url": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/config?ref=master",
+            "html_url": "https://github.com/immortalwrt/immortalwrt/tree/master/config",
+            "git_url": "https://api.github.com/repos/immortalwrt/immortalwrt/git/trees/7051c2e95cdaf995f8af2fb11dc098c4eb7789a0",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/config?ref=master",
+              "git": "https://api.github.com/repos/immortalwrt/immortalwrt/git/trees/7051c2e95cdaf995f8af2fb11dc098c4eb7789a0",
+              "html": "https://github.com/immortalwrt/immortalwrt/tree/master/config"
+            }
+          },
+          {
+            "name": "feeds.conf.default",
+            "path": "feeds.conf.default",
+            "sha": "2a0d7f6c90a4614a70194fdae2f43e20903f44e4",
+            "size": 438,
+            "url": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/feeds.conf.default?ref=master",
+            "html_url": "https://github.com/immortalwrt/immortalwrt/blob/master/feeds.conf.default",
+            "git_url": "https://api.github.com/repos/immortalwrt/immortalwrt/git/blobs/2a0d7f6c90a4614a70194fdae2f43e20903f44e4",
+            "download_url": "https://raw.githubusercontent.com/immortalwrt/immortalwrt/master/feeds.conf.default",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/feeds.conf.default?ref=master",
+              "git": "https://api.github.com/repos/immortalwrt/immortalwrt/git/blobs/2a0d7f6c90a4614a70194fdae2f43e20903f44e4",
+              "html": "https://github.com/immortalwrt/immortalwrt/blob/master/feeds.conf.default"
+            }
+          },
+          {
+            "name": "include",
+            "path": "include",
+            "sha": "eb245f984fe03e6ec54f6318fd0a101812013228",
+            "size": 0,
+            "url": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/include?ref=master",
+            "html_url": "https://github.com/immortalwrt/immortalwrt/tree/master/include",
+            "git_url": "https://api.github.com/repos/immortalwrt/immortalwrt/git/trees/eb245f984fe03e6ec54f6318fd0a101812013228",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/include?ref=master",
+              "git": "https://api.github.com/repos/immortalwrt/immortalwrt/git/trees/eb245f984fe03e6ec54f6318fd0a101812013228",
+              "html": "https://github.com/immortalwrt/immortalwrt/tree/master/include"
+            }
+          },
+          {
+            "name": "package",
+            "path": "package",
+            "sha": "3f4971078a3f5d610e90055c9863f30106442cf8",
+            "size": 0,
+            "url": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/package?ref=master",
+            "html_url": "https://github.com/immortalwrt/immortalwrt/tree/master/package",
+            "git_url": "https://api.github.com/repos/immortalwrt/immortalwrt/git/trees/3f4971078a3f5d610e90055c9863f30106442cf8",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/package?ref=master",
+              "git": "https://api.github.com/repos/immortalwrt/immortalwrt/git/trees/3f4971078a3f5d610e90055c9863f30106442cf8",
+              "html": "https://github.com/immortalwrt/immortalwrt/tree/master/package"
+            }
+          },
+          {
+            "name": "rules.mk",
+            "path": "rules.mk",
+            "sha": "929d8e00e8d02a393a9fbc1a488ea40c379e30a2",
+            "size": 17573,
+            "url": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/rules.mk?ref=master",
+            "html_url": "https://github.com/immortalwrt/immortalwrt/blob/master/rules.mk",
+            "git_url": "https://api.github.com/repos/immortalwrt/immortalwrt/git/blobs/929d8e00e8d02a393a9fbc1a488ea40c379e30a2",
+            "download_url": "https://raw.githubusercontent.com/immortalwrt/immortalwrt/master/rules.mk",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/rules.mk?ref=master",
+              "git": "https://api.github.com/repos/immortalwrt/immortalwrt/git/blobs/929d8e00e8d02a393a9fbc1a488ea40c379e30a2",
+              "html": "https://github.com/immortalwrt/immortalwrt/blob/master/rules.mk"
+            }
+          },
+          {
+            "name": "scripts",
+            "path": "scripts",
+            "sha": "af498b1cd677ca295795307c7e7523c4f049327c",
+            "size": 0,
+            "url": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/scripts?ref=master",
+            "html_url": "https://github.com/immortalwrt/immortalwrt/tree/master/scripts",
+            "git_url": "https://api.github.com/repos/immortalwrt/immortalwrt/git/trees/af498b1cd677ca295795307c7e7523c4f049327c",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/scripts?ref=master",
+              "git": "https://api.github.com/repos/immortalwrt/immortalwrt/git/trees/af498b1cd677ca295795307c7e7523c4f049327c",
+              "html": "https://github.com/immortalwrt/immortalwrt/tree/master/scripts"
+            }
+          },
+          {
+            "name": "target",
+            "path": "target",
+            "sha": "3ad5cadc4051ebc678d17522b41d966651eafe23",
+            "size": 0,
+            "url": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/target?ref=master",
+            "html_url": "https://github.com/immortalwrt/immortalwrt/tree/master/target",
+            "git_url": "https://api.github.com/repos/immortalwrt/immortalwrt/git/trees/3ad5cadc4051ebc678d17522b41d966651eafe23",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/target?ref=master",
+              "git": "https://api.github.com/repos/immortalwrt/immortalwrt/git/trees/3ad5cadc4051ebc678d17522b41d966651eafe23",
+              "html": "https://github.com/immortalwrt/immortalwrt/tree/master/target"
+            }
+          },
+          {
+            "name": "toolchain",
+            "path": "toolchain",
+            "sha": "fb072c6adb12b435b5d8d688c66a27241a8d948e",
+            "size": 0,
+            "url": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/toolchain?ref=master",
+            "html_url": "https://github.com/immortalwrt/immortalwrt/tree/master/toolchain",
+            "git_url": "https://api.github.com/repos/immortalwrt/immortalwrt/git/trees/fb072c6adb12b435b5d8d688c66a27241a8d948e",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/toolchain?ref=master",
+              "git": "https://api.github.com/repos/immortalwrt/immortalwrt/git/trees/fb072c6adb12b435b5d8d688c66a27241a8d948e",
+              "html": "https://github.com/immortalwrt/immortalwrt/tree/master/toolchain"
+            }
+          },
+          {
+            "name": "tools",
+            "path": "tools",
+            "sha": "ef6b9e42130b76fcf8d77546402c09b3c26bccea",
+            "size": 0,
+            "url": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/tools?ref=master",
+            "html_url": "https://github.com/immortalwrt/immortalwrt/tree/master/tools",
+            "git_url": "https://api.github.com/repos/immortalwrt/immortalwrt/git/trees/ef6b9e42130b76fcf8d77546402c09b3c26bccea",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/immortalwrt/immortalwrt/contents/tools?ref=master",
+              "git": "https://api.github.com/repos/immortalwrt/immortalwrt/git/trees/ef6b9e42130b76fcf8d77546402c09b3c26bccea",
+              "html": "https://github.com/immortalwrt/immortalwrt/tree/master/tools"
+            }
+          }
+        ]
+      },
+      "timestamp": "2025-09-08T11:03:22.822356"
+    },
+    "e011de77faa62790d86a6c96d9739bb8": {
+      "repo_url": "https://github.com/termux/termux-packages",
+      "pattern_data": {
+        "owner": "termux",
+        "repo": "termux-packages",
+        "name": "termux-packages",
+        "description": "A package build system for Termux.",
+        "language": "Shell",
+        "frameworks": [],
+        "stars": 14810,
+        "forks": 3603,
+        "contents": [
+          {
+            "name": ".editorconfig",
+            "path": ".editorconfig",
+            "sha": "1410f498111da5db0031df3c83b0bcbfc0a3654c",
+            "size": 704,
+            "url": "https://api.github.com/repos/termux/termux-packages/contents/.editorconfig?ref=master",
+            "html_url": "https://github.com/termux/termux-packages/blob/master/.editorconfig",
+            "git_url": "https://api.github.com/repos/termux/termux-packages/git/blobs/1410f498111da5db0031df3c83b0bcbfc0a3654c",
+            "download_url": "https://raw.githubusercontent.com/termux/termux-packages/master/.editorconfig",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/termux/termux-packages/contents/.editorconfig?ref=master",
+              "git": "https://api.github.com/repos/termux/termux-packages/git/blobs/1410f498111da5db0031df3c83b0bcbfc0a3654c",
+              "html": "https://github.com/termux/termux-packages/blob/master/.editorconfig"
+            }
+          },
+          {
+            "name": ".gitattributes",
+            "path": ".gitattributes",
+            "sha": "53345b007879cce650825f6c063c1578cb294f99",
+            "size": 513,
+            "url": "https://api.github.com/repos/termux/termux-packages/contents/.gitattributes?ref=master",
+            "html_url": "https://github.com/termux/termux-packages/blob/master/.gitattributes",
+            "git_url": "https://api.github.com/repos/termux/termux-packages/git/blobs/53345b007879cce650825f6c063c1578cb294f99",
+            "download_url": "https://raw.githubusercontent.com/termux/termux-packages/master/.gitattributes",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/termux/termux-packages/contents/.gitattributes?ref=master",
+              "git": "https://api.github.com/repos/termux/termux-packages/git/blobs/53345b007879cce650825f6c063c1578cb294f99",
+              "html": "https://github.com/termux/termux-packages/blob/master/.gitattributes"
+            }
+          },
+          {
+            "name": ".github",
+            "path": ".github",
+            "sha": "db16800d1240a7b258c5ab889a1c30e50a27910b",
+            "size": 0,
+            "url": "https://api.github.com/repos/termux/termux-packages/contents/.github?ref=master",
+            "html_url": "https://github.com/termux/termux-packages/tree/master/.github",
+            "git_url": "https://api.github.com/repos/termux/termux-packages/git/trees/db16800d1240a7b258c5ab889a1c30e50a27910b",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/termux/termux-packages/contents/.github?ref=master",
+              "git": "https://api.github.com/repos/termux/termux-packages/git/trees/db16800d1240a7b258c5ab889a1c30e50a27910b",
+              "html": "https://github.com/termux/termux-packages/tree/master/.github"
+            }
+          },
+          {
+            "name": ".gitignore",
+            "path": ".gitignore",
+            "sha": "5a29064c381858404ed32fbc3dbb35771e444f63",
+            "size": 601,
+            "url": "https://api.github.com/repos/termux/termux-packages/contents/.gitignore?ref=master",
+            "html_url": "https://github.com/termux/termux-packages/blob/master/.gitignore",
+            "git_url": "https://api.github.com/repos/termux/termux-packages/git/blobs/5a29064c381858404ed32fbc3dbb35771e444f63",
+            "download_url": "https://raw.githubusercontent.com/termux/termux-packages/master/.gitignore",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/termux/termux-packages/contents/.gitignore?ref=master",
+              "git": "https://api.github.com/repos/termux/termux-packages/git/blobs/5a29064c381858404ed32fbc3dbb35771e444f63",
+              "html": "https://github.com/termux/termux-packages/blob/master/.gitignore"
+            }
+          },
+          {
+            "name": "CODEOWNERS",
+            "path": "CODEOWNERS",
+            "sha": "da449e896c4c9d63fc6409cf0a8c7e1be9f3d298",
+            "size": 4636,
+            "url": "https://api.github.com/repos/termux/termux-packages/contents/CODEOWNERS?ref=master",
+            "html_url": "https://github.com/termux/termux-packages/blob/master/CODEOWNERS",
+            "git_url": "https://api.github.com/repos/termux/termux-packages/git/blobs/da449e896c4c9d63fc6409cf0a8c7e1be9f3d298",
+            "download_url": "https://raw.githubusercontent.com/termux/termux-packages/master/CODEOWNERS",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/termux/termux-packages/contents/CODEOWNERS?ref=master",
+              "git": "https://api.github.com/repos/termux/termux-packages/git/blobs/da449e896c4c9d63fc6409cf0a8c7e1be9f3d298",
+              "html": "https://github.com/termux/termux-packages/blob/master/CODEOWNERS"
+            }
+          },
+          {
+            "name": "CONTRIBUTING.md",
+            "path": "CONTRIBUTING.md",
+            "sha": "7fa6c908cf85f95b9b71c84b7ccc4352c19400dd",
+            "size": 26858,
+            "url": "https://api.github.com/repos/termux/termux-packages/contents/CONTRIBUTING.md?ref=master",
+            "html_url": "https://github.com/termux/termux-packages/blob/master/CONTRIBUTING.md",
+            "git_url": "https://api.github.com/repos/termux/termux-packages/git/blobs/7fa6c908cf85f95b9b71c84b7ccc4352c19400dd",
+            "download_url": "https://raw.githubusercontent.com/termux/termux-packages/master/CONTRIBUTING.md",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/termux/termux-packages/contents/CONTRIBUTING.md?ref=master",
+              "git": "https://api.github.com/repos/termux/termux-packages/git/blobs/7fa6c908cf85f95b9b71c84b7ccc4352c19400dd",
+              "html": "https://github.com/termux/termux-packages/blob/master/CONTRIBUTING.md"
+            }
+          },
+          {
+            "name": "LICENSE.md",
+            "path": "LICENSE.md",
+            "sha": "a901a9b5b014d9e50316d300066ed0069f1f4bd8",
+            "size": 565,
+            "url": "https://api.github.com/repos/termux/termux-packages/contents/LICENSE.md?ref=master",
+            "html_url": "https://github.com/termux/termux-packages/blob/master/LICENSE.md",
+            "git_url": "https://api.github.com/repos/termux/termux-packages/git/blobs/a901a9b5b014d9e50316d300066ed0069f1f4bd8",
+            "download_url": "https://raw.githubusercontent.com/termux/termux-packages/master/LICENSE.md",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/termux/termux-packages/contents/LICENSE.md?ref=master",
+              "git": "https://api.github.com/repos/termux/termux-packages/git/blobs/a901a9b5b014d9e50316d300066ed0069f1f4bd8",
+              "html": "https://github.com/termux/termux-packages/blob/master/LICENSE.md"
+            }
+          },
+          {
+            "name": "README.md",
+            "path": "README.md",
+            "sha": "03a6daec5e9cb40deac9fee25e1812fcdd801b9a",
+            "size": 2483,
+            "url": "https://api.github.com/repos/termux/termux-packages/contents/README.md?ref=master",
+            "html_url": "https://github.com/termux/termux-packages/blob/master/README.md",
+            "git_url": "https://api.github.com/repos/termux/termux-packages/git/blobs/03a6daec5e9cb40deac9fee25e1812fcdd801b9a",
+            "download_url": "https://raw.githubusercontent.com/termux/termux-packages/master/README.md",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/termux/termux-packages/contents/README.md?ref=master",
+              "git": "https://api.github.com/repos/termux/termux-packages/git/blobs/03a6daec5e9cb40deac9fee25e1812fcdd801b9a",
+              "html": "https://github.com/termux/termux-packages/blob/master/README.md"
+            }
+          },
+          {
+            "name": "SECURITY.md",
+            "path": "SECURITY.md",
+            "sha": "b36ec42b4c4c4178390011cbdacd1464413c1063",
+            "size": 3061,
+            "url": "https://api.github.com/repos/termux/termux-packages/contents/SECURITY.md?ref=master",
+            "html_url": "https://github.com/termux/termux-packages/blob/master/SECURITY.md",
+            "git_url": "https://api.github.com/repos/termux/termux-packages/git/blobs/b36ec42b4c4c4178390011cbdacd1464413c1063",
+            "download_url": "https://raw.githubusercontent.com/termux/termux-packages/master/SECURITY.md",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/termux/termux-packages/contents/SECURITY.md?ref=master",
+              "git": "https://api.github.com/repos/termux/termux-packages/git/blobs/b36ec42b4c4c4178390011cbdacd1464413c1063",
+              "html": "https://github.com/termux/termux-packages/blob/master/SECURITY.md"
+            }
+          },
+          {
+            "name": "build-all.sh",
+            "path": "build-all.sh",
+            "sha": "08ce45235399aaae4fe8f4d6cf478cf105d88389",
+            "size": 2882,
+            "url": "https://api.github.com/repos/termux/termux-packages/contents/build-all.sh?ref=master",
+            "html_url": "https://github.com/termux/termux-packages/blob/master/build-all.sh",
+            "git_url": "https://api.github.com/repos/termux/termux-packages/git/blobs/08ce45235399aaae4fe8f4d6cf478cf105d88389",
+            "download_url": "https://raw.githubusercontent.com/termux/termux-packages/master/build-all.sh",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/termux/termux-packages/contents/build-all.sh?ref=master",
+              "git": "https://api.github.com/repos/termux/termux-packages/git/blobs/08ce45235399aaae4fe8f4d6cf478cf105d88389",
+              "html": "https://github.com/termux/termux-packages/blob/master/build-all.sh"
+            }
+          },
+          {
+            "name": "build-package.sh",
+            "path": "build-package.sh",
+            "sha": "79d5eccdafcc3536af45edae4fe6b2181b29e860",
+            "size": 35077,
+            "url": "https://api.github.com/repos/termux/termux-packages/contents/build-package.sh?ref=master",
+            "html_url": "https://github.com/termux/termux-packages/blob/master/build-package.sh",
+            "git_url": "https://api.github.com/repos/termux/termux-packages/git/blobs/79d5eccdafcc3536af45edae4fe6b2181b29e860",
+            "download_url": "https://raw.githubusercontent.com/termux/termux-packages/master/build-package.sh",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/termux/termux-packages/contents/build-package.sh?ref=master",
+              "git": "https://api.github.com/repos/termux/termux-packages/git/blobs/79d5eccdafcc3536af45edae4fe6b2181b29e860",
+              "html": "https://github.com/termux/termux-packages/blob/master/build-package.sh"
+            }
+          },
+          {
+            "name": "clean.sh",
+            "path": "clean.sh",
+            "sha": "ee687bef98870ece83481a7a273d50e43d7bf41f",
+            "size": 3546,
+            "url": "https://api.github.com/repos/termux/termux-packages/contents/clean.sh?ref=master",
+            "html_url": "https://github.com/termux/termux-packages/blob/master/clean.sh",
+            "git_url": "https://api.github.com/repos/termux/termux-packages/git/blobs/ee687bef98870ece83481a7a273d50e43d7bf41f",
+            "download_url": "https://raw.githubusercontent.com/termux/termux-packages/master/clean.sh",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/termux/termux-packages/contents/clean.sh?ref=master",
+              "git": "https://api.github.com/repos/termux/termux-packages/git/blobs/ee687bef98870ece83481a7a273d50e43d7bf41f",
+              "html": "https://github.com/termux/termux-packages/blob/master/clean.sh"
+            }
+          },
+          {
+            "name": "disabled-packages",
+            "path": "disabled-packages",
+            "sha": "7659f22cf5b4132f8590c054d78b99651ca7f85f",
+            "size": 0,
+            "url": "https://api.github.com/repos/termux/termux-packages/contents/disabled-packages?ref=master",
+            "html_url": "https://github.com/termux/termux-packages/tree/master/disabled-packages",
+            "git_url": "https://api.github.com/repos/termux/termux-packages/git/trees/7659f22cf5b4132f8590c054d78b99651ca7f85f",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/termux/termux-packages/contents/disabled-packages?ref=master",
+              "git": "https://api.github.com/repos/termux/termux-packages/git/trees/7659f22cf5b4132f8590c054d78b99651ca7f85f",
+              "html": "https://github.com/termux/termux-packages/tree/master/disabled-packages"
+            }
+          },
+          {
+            "name": "ndk-patches",
+            "path": "ndk-patches",
+            "sha": "b8262d0097986da99bcfcfe541d2e8e7918ad600",
+            "size": 0,
+            "url": "https://api.github.com/repos/termux/termux-packages/contents/ndk-patches?ref=master",
+            "html_url": "https://github.com/termux/termux-packages/tree/master/ndk-patches",
+            "git_url": "https://api.github.com/repos/termux/termux-packages/git/trees/b8262d0097986da99bcfcfe541d2e8e7918ad600",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/termux/termux-packages/contents/ndk-patches?ref=master",
+              "git": "https://api.github.com/repos/termux/termux-packages/git/trees/b8262d0097986da99bcfcfe541d2e8e7918ad600",
+              "html": "https://github.com/termux/termux-packages/tree/master/ndk-patches"
+            }
+          },
+          {
+            "name": "packages",
+            "path": "packages",
+            "sha": "3a76dbbe7a1195b0afaeea12d0c44d4c323bba2f",
+            "size": 0,
+            "url": "https://api.github.com/repos/termux/termux-packages/contents/packages?ref=master",
+            "html_url": "https://github.com/termux/termux-packages/tree/master/packages",
+            "git_url": "https://api.github.com/repos/termux/termux-packages/git/trees/3a76dbbe7a1195b0afaeea12d0c44d4c323bba2f",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/termux/termux-packages/contents/packages?ref=master",
+              "git": "https://api.github.com/repos/termux/termux-packages/git/trees/3a76dbbe7a1195b0afaeea12d0c44d4c323bba2f",
+              "html": "https://github.com/termux/termux-packages/tree/master/packages"
+            }
+          },
+          {
+            "name": "repo.json",
+            "path": "repo.json",
+            "sha": "fd6bd5ded48db1ea741523a6ae2043aca49cb6a9",
+            "size": 522,
+            "url": "https://api.github.com/repos/termux/termux-packages/contents/repo.json?ref=master",
+            "html_url": "https://github.com/termux/termux-packages/blob/master/repo.json",
+            "git_url": "https://api.github.com/repos/termux/termux-packages/git/blobs/fd6bd5ded48db1ea741523a6ae2043aca49cb6a9",
+            "download_url": "https://raw.githubusercontent.com/termux/termux-packages/master/repo.json",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/termux/termux-packages/contents/repo.json?ref=master",
+              "git": "https://api.github.com/repos/termux/termux-packages/git/blobs/fd6bd5ded48db1ea741523a6ae2043aca49cb6a9",
+              "html": "https://github.com/termux/termux-packages/blob/master/repo.json"
+            }
+          },
+          {
+            "name": "root-packages",
+            "path": "root-packages",
+            "sha": "d7719174260ecda2d3ed7b538f0ccb2905e7c0a5",
+            "size": 0,
+            "url": "https://api.github.com/repos/termux/termux-packages/contents/root-packages?ref=master",
+            "html_url": "https://github.com/termux/termux-packages/tree/master/root-packages",
+            "git_url": "https://api.github.com/repos/termux/termux-packages/git/trees/d7719174260ecda2d3ed7b538f0ccb2905e7c0a5",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/termux/termux-packages/contents/root-packages?ref=master",
+              "git": "https://api.github.com/repos/termux/termux-packages/git/trees/d7719174260ecda2d3ed7b538f0ccb2905e7c0a5",
+              "html": "https://github.com/termux/termux-packages/tree/master/root-packages"
+            }
+          },
+          {
+            "name": "sample",
+            "path": "sample",
+            "sha": "2c9d0527173b9522332402008aea446a16916662",
+            "size": 0,
+            "url": "https://api.github.com/repos/termux/termux-packages/contents/sample?ref=master",
+            "html_url": "https://github.com/termux/termux-packages/tree/master/sample",
+            "git_url": "https://api.github.com/repos/termux/termux-packages/git/trees/2c9d0527173b9522332402008aea446a16916662",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/termux/termux-packages/contents/sample?ref=master",
+              "git": "https://api.github.com/repos/termux/termux-packages/git/trees/2c9d0527173b9522332402008aea446a16916662",
+              "html": "https://github.com/termux/termux-packages/tree/master/sample"
+            }
+          },
+          {
+            "name": "scripts",
+            "path": "scripts",
+            "sha": "8b5e4d92d859e80e20a2cc3dfb21bf36926f42fb",
+            "size": 0,
+            "url": "https://api.github.com/repos/termux/termux-packages/contents/scripts?ref=master",
+            "html_url": "https://github.com/termux/termux-packages/tree/master/scripts",
+            "git_url": "https://api.github.com/repos/termux/termux-packages/git/trees/8b5e4d92d859e80e20a2cc3dfb21bf36926f42fb",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/termux/termux-packages/contents/scripts?ref=master",
+              "git": "https://api.github.com/repos/termux/termux-packages/git/trees/8b5e4d92d859e80e20a2cc3dfb21bf36926f42fb",
+              "html": "https://github.com/termux/termux-packages/tree/master/scripts"
+            }
+          },
+          {
+            "name": "x11-packages",
+            "path": "x11-packages",
+            "sha": "df40cf6292871a9c772e61be3d72ce38d12ccbc9",
+            "size": 0,
+            "url": "https://api.github.com/repos/termux/termux-packages/contents/x11-packages?ref=master",
+            "html_url": "https://github.com/termux/termux-packages/tree/master/x11-packages",
+            "git_url": "https://api.github.com/repos/termux/termux-packages/git/trees/df40cf6292871a9c772e61be3d72ce38d12ccbc9",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/termux/termux-packages/contents/x11-packages?ref=master",
+              "git": "https://api.github.com/repos/termux/termux-packages/git/trees/df40cf6292871a9c772e61be3d72ce38d12ccbc9",
+              "html": "https://github.com/termux/termux-packages/tree/master/x11-packages"
+            }
+          }
+        ]
+      },
+      "timestamp": "2025-09-08T11:04:24.422628"
+    },
+    "e5b3d731b22fca13ded1e780a2b290ab": {
+      "repo_url": "https://github.com/emcie-co/parlant",
+      "pattern_data": {
+        "owner": "emcie-co",
+        "repo": "parlant",
+        "name": "parlant",
+        "description": "LLM agents built for control. Designed for real-world use. Deployed in minutes.",
+        "language": "Python",
+        "frameworks": [],
+        "stars": 10130,
+        "forks": 826,
+        "contents": [
+          {
+            "name": ".devcontainer",
+            "path": ".devcontainer",
+            "sha": "22c42f376f6921e1139ca5694fcc6be2de65e2b6",
+            "size": 0,
+            "url": "https://api.github.com/repos/emcie-co/parlant/contents/.devcontainer?ref=develop",
+            "html_url": "https://github.com/emcie-co/parlant/tree/develop/.devcontainer",
+            "git_url": "https://api.github.com/repos/emcie-co/parlant/git/trees/22c42f376f6921e1139ca5694fcc6be2de65e2b6",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/emcie-co/parlant/contents/.devcontainer?ref=develop",
+              "git": "https://api.github.com/repos/emcie-co/parlant/git/trees/22c42f376f6921e1139ca5694fcc6be2de65e2b6",
+              "html": "https://github.com/emcie-co/parlant/tree/develop/.devcontainer"
+            }
+          },
+          {
+            "name": ".githooks",
+            "path": ".githooks",
+            "sha": "922ebb1ab0ad4ccd2881654b1cea6680769451d3",
+            "size": 0,
+            "url": "https://api.github.com/repos/emcie-co/parlant/contents/.githooks?ref=develop",
+            "html_url": "https://github.com/emcie-co/parlant/tree/develop/.githooks",
+            "git_url": "https://api.github.com/repos/emcie-co/parlant/git/trees/922ebb1ab0ad4ccd2881654b1cea6680769451d3",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/emcie-co/parlant/contents/.githooks?ref=develop",
+              "git": "https://api.github.com/repos/emcie-co/parlant/git/trees/922ebb1ab0ad4ccd2881654b1cea6680769451d3",
+              "html": "https://github.com/emcie-co/parlant/tree/develop/.githooks"
+            }
+          },
+          {
+            "name": ".github",
+            "path": ".github",
+            "sha": "04405df8253e2cdcc2ea1c03311b379cf57d42e9",
+            "size": 0,
+            "url": "https://api.github.com/repos/emcie-co/parlant/contents/.github?ref=develop",
+            "html_url": "https://github.com/emcie-co/parlant/tree/develop/.github",
+            "git_url": "https://api.github.com/repos/emcie-co/parlant/git/trees/04405df8253e2cdcc2ea1c03311b379cf57d42e9",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/emcie-co/parlant/contents/.github?ref=develop",
+              "git": "https://api.github.com/repos/emcie-co/parlant/git/trees/04405df8253e2cdcc2ea1c03311b379cf57d42e9",
+              "html": "https://github.com/emcie-co/parlant/tree/develop/.github"
+            }
+          },
+          {
+            "name": ".gitignore",
+            "path": ".gitignore",
+            "sha": "8f4abc28f5af82d3b83f13be198e36d18fbd3fc2",
+            "size": 325,
+            "url": "https://api.github.com/repos/emcie-co/parlant/contents/.gitignore?ref=develop",
+            "html_url": "https://github.com/emcie-co/parlant/blob/develop/.gitignore",
+            "git_url": "https://api.github.com/repos/emcie-co/parlant/git/blobs/8f4abc28f5af82d3b83f13be198e36d18fbd3fc2",
+            "download_url": "https://raw.githubusercontent.com/emcie-co/parlant/develop/.gitignore",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/emcie-co/parlant/contents/.gitignore?ref=develop",
+              "git": "https://api.github.com/repos/emcie-co/parlant/git/blobs/8f4abc28f5af82d3b83f13be198e36d18fbd3fc2",
+              "html": "https://github.com/emcie-co/parlant/blob/develop/.gitignore"
+            }
+          },
+          {
+            "name": "CHANGELOG.md",
+            "path": "CHANGELOG.md",
+            "sha": "2105d2c3561899fddaba60a53a6da79517206c2c",
+            "size": 9622,
+            "url": "https://api.github.com/repos/emcie-co/parlant/contents/CHANGELOG.md?ref=develop",
+            "html_url": "https://github.com/emcie-co/parlant/blob/develop/CHANGELOG.md",
+            "git_url": "https://api.github.com/repos/emcie-co/parlant/git/blobs/2105d2c3561899fddaba60a53a6da79517206c2c",
+            "download_url": "https://raw.githubusercontent.com/emcie-co/parlant/develop/CHANGELOG.md",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/emcie-co/parlant/contents/CHANGELOG.md?ref=develop",
+              "git": "https://api.github.com/repos/emcie-co/parlant/git/blobs/2105d2c3561899fddaba60a53a6da79517206c2c",
+              "html": "https://github.com/emcie-co/parlant/blob/develop/CHANGELOG.md"
+            }
+          },
+          {
+            "name": "CONTRIBUTING.md",
+            "path": "CONTRIBUTING.md",
+            "sha": "6ec7b9617b773053cbdb46ad551f699f4200aab4",
+            "size": 846,
+            "url": "https://api.github.com/repos/emcie-co/parlant/contents/CONTRIBUTING.md?ref=develop",
+            "html_url": "https://github.com/emcie-co/parlant/blob/develop/CONTRIBUTING.md",
+            "git_url": "https://api.github.com/repos/emcie-co/parlant/git/blobs/6ec7b9617b773053cbdb46ad551f699f4200aab4",
+            "download_url": "https://raw.githubusercontent.com/emcie-co/parlant/develop/CONTRIBUTING.md",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/emcie-co/parlant/contents/CONTRIBUTING.md?ref=develop",
+              "git": "https://api.github.com/repos/emcie-co/parlant/git/blobs/6ec7b9617b773053cbdb46ad551f699f4200aab4",
+              "html": "https://github.com/emcie-co/parlant/blob/develop/CONTRIBUTING.md"
+            }
+          },
+          {
+            "name": "DCO.md",
+            "path": "DCO.md",
+            "sha": "d950df0c3f68ca2457f5e81e6dc31cbf3f279835",
+            "size": 1365,
+            "url": "https://api.github.com/repos/emcie-co/parlant/contents/DCO.md?ref=develop",
+            "html_url": "https://github.com/emcie-co/parlant/blob/develop/DCO.md",
+            "git_url": "https://api.github.com/repos/emcie-co/parlant/git/blobs/d950df0c3f68ca2457f5e81e6dc31cbf3f279835",
+            "download_url": "https://raw.githubusercontent.com/emcie-co/parlant/develop/DCO.md",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/emcie-co/parlant/contents/DCO.md?ref=develop",
+              "git": "https://api.github.com/repos/emcie-co/parlant/git/blobs/d950df0c3f68ca2457f5e81e6dc31cbf3f279835",
+              "html": "https://github.com/emcie-co/parlant/blob/develop/DCO.md"
+            }
+          },
+          {
+            "name": "LICENSE",
+            "path": "LICENSE",
+            "sha": "6337b9bcc40198c8c585380b77cebbe3c2e82591",
+            "size": 11344,
+            "url": "https://api.github.com/repos/emcie-co/parlant/contents/LICENSE?ref=develop",
+            "html_url": "https://github.com/emcie-co/parlant/blob/develop/LICENSE",
+            "git_url": "https://api.github.com/repos/emcie-co/parlant/git/blobs/6337b9bcc40198c8c585380b77cebbe3c2e82591",
+            "download_url": "https://raw.githubusercontent.com/emcie-co/parlant/develop/LICENSE",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/emcie-co/parlant/contents/LICENSE?ref=develop",
+              "git": "https://api.github.com/repos/emcie-co/parlant/git/blobs/6337b9bcc40198c8c585380b77cebbe3c2e82591",
+              "html": "https://github.com/emcie-co/parlant/blob/develop/LICENSE"
+            }
+          },
+          {
+            "name": "README.md",
+            "path": "README.md",
+            "sha": "c16ba40632d6e076d8c1361560ea45509df2f8a5",
+            "size": 9900,
+            "url": "https://api.github.com/repos/emcie-co/parlant/contents/README.md?ref=develop",
+            "html_url": "https://github.com/emcie-co/parlant/blob/develop/README.md",
+            "git_url": "https://api.github.com/repos/emcie-co/parlant/git/blobs/c16ba40632d6e076d8c1361560ea45509df2f8a5",
+            "download_url": "https://raw.githubusercontent.com/emcie-co/parlant/develop/README.md",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/emcie-co/parlant/contents/README.md?ref=develop",
+              "git": "https://api.github.com/repos/emcie-co/parlant/git/blobs/c16ba40632d6e076d8c1361560ea45509df2f8a5",
+              "html": "https://github.com/emcie-co/parlant/blob/develop/README.md"
+            }
+          },
+          {
+            "name": "docs",
+            "path": "docs",
+            "sha": "591d4d6229d8bfa1b849ad54f48743033ac6d7b4",
+            "size": 0,
+            "url": "https://api.github.com/repos/emcie-co/parlant/contents/docs?ref=develop",
+            "html_url": "https://github.com/emcie-co/parlant/tree/develop/docs",
+            "git_url": "https://api.github.com/repos/emcie-co/parlant/git/trees/591d4d6229d8bfa1b849ad54f48743033ac6d7b4",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/emcie-co/parlant/contents/docs?ref=develop",
+              "git": "https://api.github.com/repos/emcie-co/parlant/git/trees/591d4d6229d8bfa1b849ad54f48743033ac6d7b4",
+              "html": "https://github.com/emcie-co/parlant/tree/develop/docs"
+            }
+          },
+          {
+            "name": "examples",
+            "path": "examples",
+            "sha": "9bc6db3b39bd3a2579d9ee27ae1affab498cbda2",
+            "size": 0,
+            "url": "https://api.github.com/repos/emcie-co/parlant/contents/examples?ref=develop",
+            "html_url": "https://github.com/emcie-co/parlant/tree/develop/examples",
+            "git_url": "https://api.github.com/repos/emcie-co/parlant/git/trees/9bc6db3b39bd3a2579d9ee27ae1affab498cbda2",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/emcie-co/parlant/contents/examples?ref=develop",
+              "git": "https://api.github.com/repos/emcie-co/parlant/git/trees/9bc6db3b39bd3a2579d9ee27ae1affab498cbda2",
+              "html": "https://github.com/emcie-co/parlant/tree/develop/examples"
+            }
+          },
+          {
+            "name": "llms.txt",
+            "path": "llms.txt",
+            "sha": "c7da78c03f55be7b11c38269a394ea371cbc60d3",
+            "size": 3791,
+            "url": "https://api.github.com/repos/emcie-co/parlant/contents/llms.txt?ref=develop",
+            "html_url": "https://github.com/emcie-co/parlant/blob/develop/llms.txt",
+            "git_url": "https://api.github.com/repos/emcie-co/parlant/git/blobs/c7da78c03f55be7b11c38269a394ea371cbc60d3",
+            "download_url": "https://raw.githubusercontent.com/emcie-co/parlant/develop/llms.txt",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/emcie-co/parlant/contents/llms.txt?ref=develop",
+              "git": "https://api.github.com/repos/emcie-co/parlant/git/blobs/c7da78c03f55be7b11c38269a394ea371cbc60d3",
+              "html": "https://github.com/emcie-co/parlant/blob/develop/llms.txt"
+            }
+          },
+          {
+            "name": "mypy.ini",
+            "path": "mypy.ini",
+            "sha": "c4a5ef10dc6cdfdb7a3fe7655ff49692dda41482",
+            "size": 216,
+            "url": "https://api.github.com/repos/emcie-co/parlant/contents/mypy.ini?ref=develop",
+            "html_url": "https://github.com/emcie-co/parlant/blob/develop/mypy.ini",
+            "git_url": "https://api.github.com/repos/emcie-co/parlant/git/blobs/c4a5ef10dc6cdfdb7a3fe7655ff49692dda41482",
+            "download_url": "https://raw.githubusercontent.com/emcie-co/parlant/develop/mypy.ini",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/emcie-co/parlant/contents/mypy.ini?ref=develop",
+              "git": "https://api.github.com/repos/emcie-co/parlant/git/blobs/c4a5ef10dc6cdfdb7a3fe7655ff49692dda41482",
+              "html": "https://github.com/emcie-co/parlant/blob/develop/mypy.ini"
+            }
+          },
+          {
+            "name": "poetry.lock",
+            "path": "poetry.lock",
+            "sha": "a26ea7628d97868693b498c1886036199028de9a",
+            "size": 650171,
+            "url": "https://api.github.com/repos/emcie-co/parlant/contents/poetry.lock?ref=develop",
+            "html_url": "https://github.com/emcie-co/parlant/blob/develop/poetry.lock",
+            "git_url": "https://api.github.com/repos/emcie-co/parlant/git/blobs/a26ea7628d97868693b498c1886036199028de9a",
+            "download_url": "https://raw.githubusercontent.com/emcie-co/parlant/develop/poetry.lock",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/emcie-co/parlant/contents/poetry.lock?ref=develop",
+              "git": "https://api.github.com/repos/emcie-co/parlant/git/blobs/a26ea7628d97868693b498c1886036199028de9a",
+              "html": "https://github.com/emcie-co/parlant/blob/develop/poetry.lock"
+            }
+          },
+          {
+            "name": "pyproject.toml",
+            "path": "pyproject.toml",
+            "sha": "99268f37e65ca06b67d2610556e421118ddf452d",
+            "size": 3403,
+            "url": "https://api.github.com/repos/emcie-co/parlant/contents/pyproject.toml?ref=develop",
+            "html_url": "https://github.com/emcie-co/parlant/blob/develop/pyproject.toml",
+            "git_url": "https://api.github.com/repos/emcie-co/parlant/git/blobs/99268f37e65ca06b67d2610556e421118ddf452d",
+            "download_url": "https://raw.githubusercontent.com/emcie-co/parlant/develop/pyproject.toml",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/emcie-co/parlant/contents/pyproject.toml?ref=develop",
+              "git": "https://api.github.com/repos/emcie-co/parlant/git/blobs/99268f37e65ca06b67d2610556e421118ddf452d",
+              "html": "https://github.com/emcie-co/parlant/blob/develop/pyproject.toml"
+            }
+          },
+          {
+            "name": "pytest.ini",
+            "path": "pytest.ini",
+            "sha": "897415f90c3351d6354100bc2f5db50daa68da14",
+            "size": 231,
+            "url": "https://api.github.com/repos/emcie-co/parlant/contents/pytest.ini?ref=develop",
+            "html_url": "https://github.com/emcie-co/parlant/blob/develop/pytest.ini",
+            "git_url": "https://api.github.com/repos/emcie-co/parlant/git/blobs/897415f90c3351d6354100bc2f5db50daa68da14",
+            "download_url": "https://raw.githubusercontent.com/emcie-co/parlant/develop/pytest.ini",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/emcie-co/parlant/contents/pytest.ini?ref=develop",
+              "git": "https://api.github.com/repos/emcie-co/parlant/git/blobs/897415f90c3351d6354100bc2f5db50daa68da14",
+              "html": "https://github.com/emcie-co/parlant/blob/develop/pytest.ini"
+            }
+          },
+          {
+            "name": "pytest_stochastics.json",
+            "path": "pytest_stochastics.json",
+            "sha": "a3dd7db73fba309a7427fc1d0f16b881103ef74a",
+            "size": 2438,
+            "url": "https://api.github.com/repos/emcie-co/parlant/contents/pytest_stochastics.json?ref=develop",
+            "html_url": "https://github.com/emcie-co/parlant/blob/develop/pytest_stochastics.json",
+            "git_url": "https://api.github.com/repos/emcie-co/parlant/git/blobs/a3dd7db73fba309a7427fc1d0f16b881103ef74a",
+            "download_url": "https://raw.githubusercontent.com/emcie-co/parlant/develop/pytest_stochastics.json",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/emcie-co/parlant/contents/pytest_stochastics.json?ref=develop",
+              "git": "https://api.github.com/repos/emcie-co/parlant/git/blobs/a3dd7db73fba309a7427fc1d0f16b881103ef74a",
+              "html": "https://github.com/emcie-co/parlant/blob/develop/pytest_stochastics.json"
+            }
+          },
+          {
+            "name": "ruff.toml",
+            "path": "ruff.toml",
+            "sha": "3c13b711dedbd9c98af97fdd8dbbb3554d39c54d",
+            "size": 1548,
+            "url": "https://api.github.com/repos/emcie-co/parlant/contents/ruff.toml?ref=develop",
+            "html_url": "https://github.com/emcie-co/parlant/blob/develop/ruff.toml",
+            "git_url": "https://api.github.com/repos/emcie-co/parlant/git/blobs/3c13b711dedbd9c98af97fdd8dbbb3554d39c54d",
+            "download_url": "https://raw.githubusercontent.com/emcie-co/parlant/develop/ruff.toml",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/emcie-co/parlant/contents/ruff.toml?ref=develop",
+              "git": "https://api.github.com/repos/emcie-co/parlant/git/blobs/3c13b711dedbd9c98af97fdd8dbbb3554d39c54d",
+              "html": "https://github.com/emcie-co/parlant/blob/develop/ruff.toml"
+            }
+          },
+          {
+            "name": "scripts",
+            "path": "scripts",
+            "sha": "96d46b69ab39cb1d282941eb9ea8f85aff671952",
+            "size": 0,
+            "url": "https://api.github.com/repos/emcie-co/parlant/contents/scripts?ref=develop",
+            "html_url": "https://github.com/emcie-co/parlant/tree/develop/scripts",
+            "git_url": "https://api.github.com/repos/emcie-co/parlant/git/trees/96d46b69ab39cb1d282941eb9ea8f85aff671952",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/emcie-co/parlant/contents/scripts?ref=develop",
+              "git": "https://api.github.com/repos/emcie-co/parlant/git/trees/96d46b69ab39cb1d282941eb9ea8f85aff671952",
+              "html": "https://github.com/emcie-co/parlant/tree/develop/scripts"
+            }
+          },
+          {
+            "name": "src",
+            "path": "src",
+            "sha": "2f0a259795e2ddca2b35fd106002ef0b4b006533",
+            "size": 0,
+            "url": "https://api.github.com/repos/emcie-co/parlant/contents/src?ref=develop",
+            "html_url": "https://github.com/emcie-co/parlant/tree/develop/src",
+            "git_url": "https://api.github.com/repos/emcie-co/parlant/git/trees/2f0a259795e2ddca2b35fd106002ef0b4b006533",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/emcie-co/parlant/contents/src?ref=develop",
+              "git": "https://api.github.com/repos/emcie-co/parlant/git/trees/2f0a259795e2ddca2b35fd106002ef0b4b006533",
+              "html": "https://github.com/emcie-co/parlant/tree/develop/src"
+            }
+          },
+          {
+            "name": "tests",
+            "path": "tests",
+            "sha": "a86b04300c6471b5c27910fa23b685f1d3f1b9a5",
+            "size": 0,
+            "url": "https://api.github.com/repos/emcie-co/parlant/contents/tests?ref=develop",
+            "html_url": "https://github.com/emcie-co/parlant/tree/develop/tests",
+            "git_url": "https://api.github.com/repos/emcie-co/parlant/git/trees/a86b04300c6471b5c27910fa23b685f1d3f1b9a5",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/emcie-co/parlant/contents/tests?ref=develop",
+              "git": "https://api.github.com/repos/emcie-co/parlant/git/trees/a86b04300c6471b5c27910fa23b685f1d3f1b9a5",
+              "html": "https://github.com/emcie-co/parlant/tree/develop/tests"
+            }
+          }
+        ]
+      },
+      "timestamp": "2025-09-08T11:12:49.029317"
+    },
+    "9b431387df4711e426a415dc43b9fb58": {
+      "repo_url": "https://github.com/fastfetch-cli/fastfetch",
+      "pattern_data": {
+        "owner": "fastfetch-cli",
+        "repo": "fastfetch",
+        "name": "fastfetch",
+        "description": "A maintained, feature-rich and performance oriented, neofetch like system information tool.",
+        "language": "C",
+        "frameworks": [],
+        "stars": 16458,
+        "forks": 561,
+        "contents": [
+          {
+            "name": ".codespellrc",
+            "path": ".codespellrc",
+            "sha": "48fa44238a978b9687bfd4f510f3dcf7ecaf1d6b",
+            "size": 307,
+            "url": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/.codespellrc?ref=dev",
+            "html_url": "https://github.com/fastfetch-cli/fastfetch/blob/dev/.codespellrc",
+            "git_url": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/blobs/48fa44238a978b9687bfd4f510f3dcf7ecaf1d6b",
+            "download_url": "https://raw.githubusercontent.com/fastfetch-cli/fastfetch/dev/.codespellrc",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/.codespellrc?ref=dev",
+              "git": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/blobs/48fa44238a978b9687bfd4f510f3dcf7ecaf1d6b",
+              "html": "https://github.com/fastfetch-cli/fastfetch/blob/dev/.codespellrc"
+            }
+          },
+          {
+            "name": ".editorconfig",
+            "path": ".editorconfig",
+            "sha": "3e19f507c9f983e0741d7e6c2c9b714ac3c703ea",
+            "size": 231,
+            "url": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/.editorconfig?ref=dev",
+            "html_url": "https://github.com/fastfetch-cli/fastfetch/blob/dev/.editorconfig",
+            "git_url": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/blobs/3e19f507c9f983e0741d7e6c2c9b714ac3c703ea",
+            "download_url": "https://raw.githubusercontent.com/fastfetch-cli/fastfetch/dev/.editorconfig",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/.editorconfig?ref=dev",
+              "git": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/blobs/3e19f507c9f983e0741d7e6c2c9b714ac3c703ea",
+              "html": "https://github.com/fastfetch-cli/fastfetch/blob/dev/.editorconfig"
+            }
+          },
+          {
+            "name": ".gitattributes",
+            "path": ".gitattributes",
+            "sha": "2a442b7180431271bf4da8e9edbb51ec98ee0a43",
+            "size": 48,
+            "url": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/.gitattributes?ref=dev",
+            "html_url": "https://github.com/fastfetch-cli/fastfetch/blob/dev/.gitattributes",
+            "git_url": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/blobs/2a442b7180431271bf4da8e9edbb51ec98ee0a43",
+            "download_url": "https://raw.githubusercontent.com/fastfetch-cli/fastfetch/dev/.gitattributes",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/.gitattributes?ref=dev",
+              "git": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/blobs/2a442b7180431271bf4da8e9edbb51ec98ee0a43",
+              "html": "https://github.com/fastfetch-cli/fastfetch/blob/dev/.gitattributes"
+            }
+          },
+          {
+            "name": ".github",
+            "path": ".github",
+            "sha": "7c2a68a1dc95fd427c1dace2d9e3790c4ca59e1a",
+            "size": 0,
+            "url": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/.github?ref=dev",
+            "html_url": "https://github.com/fastfetch-cli/fastfetch/tree/dev/.github",
+            "git_url": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/trees/7c2a68a1dc95fd427c1dace2d9e3790c4ca59e1a",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/.github?ref=dev",
+              "git": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/trees/7c2a68a1dc95fd427c1dace2d9e3790c4ca59e1a",
+              "html": "https://github.com/fastfetch-cli/fastfetch/tree/dev/.github"
+            }
+          },
+          {
+            "name": ".gitignore",
+            "path": ".gitignore",
+            "sha": "35828e8701cf46ecc10f891b77e6f7e999d63c47",
+            "size": 99,
+            "url": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/.gitignore?ref=dev",
+            "html_url": "https://github.com/fastfetch-cli/fastfetch/blob/dev/.gitignore",
+            "git_url": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/blobs/35828e8701cf46ecc10f891b77e6f7e999d63c47",
+            "download_url": "https://raw.githubusercontent.com/fastfetch-cli/fastfetch/dev/.gitignore",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/.gitignore?ref=dev",
+              "git": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/blobs/35828e8701cf46ecc10f891b77e6f7e999d63c47",
+              "html": "https://github.com/fastfetch-cli/fastfetch/blob/dev/.gitignore"
+            }
+          },
+          {
+            "name": "CHANGELOG.md",
+            "path": "CHANGELOG.md",
+            "sha": "d74114c48572b647f5e00c4a0d5a08480c0f14ec",
+            "size": 123891,
+            "url": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/CHANGELOG.md?ref=dev",
+            "html_url": "https://github.com/fastfetch-cli/fastfetch/blob/dev/CHANGELOG.md",
+            "git_url": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/blobs/d74114c48572b647f5e00c4a0d5a08480c0f14ec",
+            "download_url": "https://raw.githubusercontent.com/fastfetch-cli/fastfetch/dev/CHANGELOG.md",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/CHANGELOG.md?ref=dev",
+              "git": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/blobs/d74114c48572b647f5e00c4a0d5a08480c0f14ec",
+              "html": "https://github.com/fastfetch-cli/fastfetch/blob/dev/CHANGELOG.md"
+            }
+          },
+          {
+            "name": "CMakeLists.txt",
+            "path": "CMakeLists.txt",
+            "sha": "f3b27dd4258336b130350a8338667c9a2255b26a",
+            "size": 81547,
+            "url": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/CMakeLists.txt?ref=dev",
+            "html_url": "https://github.com/fastfetch-cli/fastfetch/blob/dev/CMakeLists.txt",
+            "git_url": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/blobs/f3b27dd4258336b130350a8338667c9a2255b26a",
+            "download_url": "https://raw.githubusercontent.com/fastfetch-cli/fastfetch/dev/CMakeLists.txt",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/CMakeLists.txt?ref=dev",
+              "git": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/blobs/f3b27dd4258336b130350a8338667c9a2255b26a",
+              "html": "https://github.com/fastfetch-cli/fastfetch/blob/dev/CMakeLists.txt"
+            }
+          },
+          {
+            "name": "CODE_OF_CONDUCT.md",
+            "path": "CODE_OF_CONDUCT.md",
+            "sha": "20bcc4f64741fd49c6ecf6296cb8b63985d27fef",
+            "size": 5488,
+            "url": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/CODE_OF_CONDUCT.md?ref=dev",
+            "html_url": "https://github.com/fastfetch-cli/fastfetch/blob/dev/CODE_OF_CONDUCT.md",
+            "git_url": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/blobs/20bcc4f64741fd49c6ecf6296cb8b63985d27fef",
+            "download_url": "https://raw.githubusercontent.com/fastfetch-cli/fastfetch/dev/CODE_OF_CONDUCT.md",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/CODE_OF_CONDUCT.md?ref=dev",
+              "git": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/blobs/20bcc4f64741fd49c6ecf6296cb8b63985d27fef",
+              "html": "https://github.com/fastfetch-cli/fastfetch/blob/dev/CODE_OF_CONDUCT.md"
+            }
+          },
+          {
+            "name": "LICENSE",
+            "path": "LICENSE",
+            "sha": "3a3b50b1c0013e690423d72f100ba03056915d0e",
+            "size": 1112,
+            "url": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/LICENSE?ref=dev",
+            "html_url": "https://github.com/fastfetch-cli/fastfetch/blob/dev/LICENSE",
+            "git_url": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/blobs/3a3b50b1c0013e690423d72f100ba03056915d0e",
+            "download_url": "https://raw.githubusercontent.com/fastfetch-cli/fastfetch/dev/LICENSE",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/LICENSE?ref=dev",
+              "git": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/blobs/3a3b50b1c0013e690423d72f100ba03056915d0e",
+              "html": "https://github.com/fastfetch-cli/fastfetch/blob/dev/LICENSE"
+            }
+          },
+          {
+            "name": "README.md",
+            "path": "README.md",
+            "sha": "11832f6ba7134264a4ebac002d59365005d77c73",
+            "size": 16043,
+            "url": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/README.md?ref=dev",
+            "html_url": "https://github.com/fastfetch-cli/fastfetch/blob/dev/README.md",
+            "git_url": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/blobs/11832f6ba7134264a4ebac002d59365005d77c73",
+            "download_url": "https://raw.githubusercontent.com/fastfetch-cli/fastfetch/dev/README.md",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/README.md?ref=dev",
+              "git": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/blobs/11832f6ba7134264a4ebac002d59365005d77c73",
+              "html": "https://github.com/fastfetch-cli/fastfetch/blob/dev/README.md"
+            }
+          },
+          {
+            "name": "completions",
+            "path": "completions",
+            "sha": "5d51c20abef3c7e49f491ac98ecea2344caeb8b5",
+            "size": 0,
+            "url": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/completions?ref=dev",
+            "html_url": "https://github.com/fastfetch-cli/fastfetch/tree/dev/completions",
+            "git_url": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/trees/5d51c20abef3c7e49f491ac98ecea2344caeb8b5",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/completions?ref=dev",
+              "git": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/trees/5d51c20abef3c7e49f491ac98ecea2344caeb8b5",
+              "html": "https://github.com/fastfetch-cli/fastfetch/tree/dev/completions"
+            }
+          },
+          {
+            "name": "debian",
+            "path": "debian",
+            "sha": "d3f013817b9f8b49f721844b22a30a89f150a27c",
+            "size": 0,
+            "url": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/debian?ref=dev",
+            "html_url": "https://github.com/fastfetch-cli/fastfetch/tree/dev/debian",
+            "git_url": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/trees/d3f013817b9f8b49f721844b22a30a89f150a27c",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/debian?ref=dev",
+              "git": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/trees/d3f013817b9f8b49f721844b22a30a89f150a27c",
+              "html": "https://github.com/fastfetch-cli/fastfetch/tree/dev/debian"
+            }
+          },
+          {
+            "name": "doc",
+            "path": "doc",
+            "sha": "d6d4b2f1cfaf7735761976c713264b73e2ed2f1b",
+            "size": 0,
+            "url": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/doc?ref=dev",
+            "html_url": "https://github.com/fastfetch-cli/fastfetch/tree/dev/doc",
+            "git_url": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/trees/d6d4b2f1cfaf7735761976c713264b73e2ed2f1b",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/doc?ref=dev",
+              "git": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/trees/d6d4b2f1cfaf7735761976c713264b73e2ed2f1b",
+              "html": "https://github.com/fastfetch-cli/fastfetch/tree/dev/doc"
+            }
+          },
+          {
+            "name": "presets",
+            "path": "presets",
+            "sha": "2799b8d334796646192bb045d581ac4f8def101c",
+            "size": 0,
+            "url": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/presets?ref=dev",
+            "html_url": "https://github.com/fastfetch-cli/fastfetch/tree/dev/presets",
+            "git_url": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/trees/2799b8d334796646192bb045d581ac4f8def101c",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/presets?ref=dev",
+              "git": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/trees/2799b8d334796646192bb045d581ac4f8def101c",
+              "html": "https://github.com/fastfetch-cli/fastfetch/tree/dev/presets"
+            }
+          },
+          {
+            "name": "run.sh",
+            "path": "run.sh",
+            "sha": "55071e40037e6dd26b39781c25198d0f594583ce",
+            "size": 414,
+            "url": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/run.sh?ref=dev",
+            "html_url": "https://github.com/fastfetch-cli/fastfetch/blob/dev/run.sh",
+            "git_url": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/blobs/55071e40037e6dd26b39781c25198d0f594583ce",
+            "download_url": "https://raw.githubusercontent.com/fastfetch-cli/fastfetch/dev/run.sh",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/run.sh?ref=dev",
+              "git": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/blobs/55071e40037e6dd26b39781c25198d0f594583ce",
+              "html": "https://github.com/fastfetch-cli/fastfetch/blob/dev/run.sh"
+            }
+          },
+          {
+            "name": "screenshots",
+            "path": "screenshots",
+            "sha": "2b7900e92a51c7500158cf8a20202780658624cc",
+            "size": 0,
+            "url": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/screenshots?ref=dev",
+            "html_url": "https://github.com/fastfetch-cli/fastfetch/tree/dev/screenshots",
+            "git_url": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/trees/2b7900e92a51c7500158cf8a20202780658624cc",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/screenshots?ref=dev",
+              "git": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/trees/2b7900e92a51c7500158cf8a20202780658624cc",
+              "html": "https://github.com/fastfetch-cli/fastfetch/tree/dev/screenshots"
+            }
+          },
+          {
+            "name": "scripts",
+            "path": "scripts",
+            "sha": "e88f895c50a9769ff7000b86ebfbb9f978781b3d",
+            "size": 0,
+            "url": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/scripts?ref=dev",
+            "html_url": "https://github.com/fastfetch-cli/fastfetch/tree/dev/scripts",
+            "git_url": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/trees/e88f895c50a9769ff7000b86ebfbb9f978781b3d",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/scripts?ref=dev",
+              "git": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/trees/e88f895c50a9769ff7000b86ebfbb9f978781b3d",
+              "html": "https://github.com/fastfetch-cli/fastfetch/tree/dev/scripts"
+            }
+          },
+          {
+            "name": "src",
+            "path": "src",
+            "sha": "880196ea147e7059afe293b9bd18e4db0536bf07",
+            "size": 0,
+            "url": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/src?ref=dev",
+            "html_url": "https://github.com/fastfetch-cli/fastfetch/tree/dev/src",
+            "git_url": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/trees/880196ea147e7059afe293b9bd18e4db0536bf07",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/src?ref=dev",
+              "git": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/trees/880196ea147e7059afe293b9bd18e4db0536bf07",
+              "html": "https://github.com/fastfetch-cli/fastfetch/tree/dev/src"
+            }
+          },
+          {
+            "name": "tests",
+            "path": "tests",
+            "sha": "ecfd6c6dea25babc3c187e05599ddd2ca1cec98e",
+            "size": 0,
+            "url": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/tests?ref=dev",
+            "html_url": "https://github.com/fastfetch-cli/fastfetch/tree/dev/tests",
+            "git_url": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/trees/ecfd6c6dea25babc3c187e05599ddd2ca1cec98e",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/fastfetch-cli/fastfetch/contents/tests?ref=dev",
+              "git": "https://api.github.com/repos/fastfetch-cli/fastfetch/git/trees/ecfd6c6dea25babc3c187e05599ddd2ca1cec98e",
+              "html": "https://github.com/fastfetch-cli/fastfetch/tree/dev/tests"
+            }
+          }
+        ]
+      },
+      "timestamp": "2025-09-08T11:47:10.249637"
+    }
+  },
+  "tech_stack_combinations": {},
+  "last_updated": "2025-09-08T11:47:10.249660"
+}
