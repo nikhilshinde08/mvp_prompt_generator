@@ -9,6 +9,7 @@ from knowledge_base import knowledge_base
 from performance_metrics import performance_metrics
 import os
 import sys
+import time
 
 # Add the project root to the Python path
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
@@ -129,5 +130,16 @@ def get_preferences():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
+@app.route('/health')
+def health_check():
+    """Health check endpoint for deployment verification"""
+    return jsonify({
+        "status": "healthy",
+        "message": "GitHub MVP Generator API is running",
+        "timestamp": str(int(time.time()))
+    })
+
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=8000)
+    # Use the PORT environment variable from Render.com, default to 8000 for local development
+    port = int(os.environ.get('PORT', 8000))
+    app.run(debug=False, host='0.0.0.0', port=port)

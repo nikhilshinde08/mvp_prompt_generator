@@ -26,7 +26,7 @@ export default function HomePage() {
 
   const fetchStats = async () => {
     try {
-      const backendUrl = process.env.NEXT_PUBLIC_BACKEND_API_URL || "http://localhost:5000"
+      const backendUrl = process.env.NEXT_PUBLIC_BACKEND_API_URL || "http://localhost:8000"
       const response = await fetch(`${backendUrl}/api/stats`)
       
       if (response.ok) {

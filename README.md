@@ -65,6 +65,10 @@ The frontend communicates with the Python backend through these endpoints:
 - `POST /api/submit-feedback` - Submit feedback (proxies to backend)
 - `GET /api/stats` - Get system statistics (called directly from frontend)
 
+## Deployment
+
+See [DEPLOYMENT.md](DEPLOYMENT.md) for instructions on deploying to Render.com or other hosting platforms.
+
 ## Dependencies
 
 - Next.js 14
