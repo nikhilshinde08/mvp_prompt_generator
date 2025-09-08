@@ -1,6 +1,9 @@
 #!/bin/bash
 # Build script for the backend API
 
+# Change to the script's directory
+cd "$(dirname "$0")"
+
 echo "Building GitHub MVP Generator Backend..."
 
 # Create virtual environment if it doesn't exist
