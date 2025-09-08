@@ -74,9 +74,57 @@ Render automatically redeploys your services when you push to your connected Git
 
 ## Troubleshooting
 
-1. **Backend fails to start**: Check that your `GROQ_API_KEY` is correctly set
-2. **Frontend can't connect to backend**: Verify `NEXT_PUBLIC_BACKEND_API_URL` is set correctly
-3. **Rate limiting**: Add a `GITHUB_TOKEN` to increase GitHub API rate limits
+### Backend Issues
+
+1. **Port already in use**: 
+   - Make sure no other processes are running on the same port
+   - The backend automatically uses the PORT environment variable provided by Render
+   - Locally, you can specify a different port: `PORT=8001 ./github_mvp_generator/start.sh`
+
+2. **Python not found**: 
+   - Ensure the virtual environment is properly set up
+   - The build script will create and activate the virtual environment
+   - Run `./github_mvp_generator/build.sh` first to set up dependencies
+
+3. **Missing dependencies**: 
+   - Check that `requirements.txt` is properly configured
+   - The build script will install all required Python packages
+
+4. **API key issues**: 
+   - Verify your `GROQ_API_KEY` is correctly set in environment variables
+   - Check the API key is valid and has not expired
+
+### Frontend Issues
+
+1. **Backend connection problems**:
+   - Verify `NEXT_PUBLIC_BACKEND_API_URL` is set correctly
+   - Check that the backend service is running
+   - Ensure the backend URL matches the actual deployed URL
+
+2. **Build failures**:
+   - Check Node.js version compatibility
+   - Ensure all npm dependencies are correctly installed
+   - Clear npm cache if needed: `npm cache clean --force`
+
+### Testing Locally
+
+1. **Start backend**:
+   ```bash
+   cd github_mvp_generator
+   ./build.sh
+   ./start.sh
+   ```
+
+2. **Test backend**:
+   ```bash
+   curl http://localhost:8000/health
+   ```
+
+3. **Start frontend**:
+   ```bash
+   npm install
+   npm run dev
+   ```
 
 ## Domain Configuration (Optional)
 
