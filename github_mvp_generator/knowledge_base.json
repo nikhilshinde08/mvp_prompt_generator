@@ -2144,8 +2144,382 @@
         ]
       },
       "timestamp": "2025-09-08T11:47:10.249637"
+    },
+    "22c5be3abc53ed0b4c7fe2466cc57a0b": {
+      "repo_url": "https://github.com/nikhilshinde08/mvp_prompt_generator",
+      "pattern_data": {
+        "owner": "nikhilshinde08",
+        "repo": "mvp_prompt_generator",
+        "name": "mvp_prompt_generator",
+        "description": "Create MVP prompts from this repo",
+        "language": "TypeScript",
+        "frameworks": [
+          "Next.js",
+          "React",
+          "Vue",
+          "Angular",
+          "Express"
+        ],
+        "stars": 1,
+        "forks": 0,
+        "contents": [
+          {
+            "name": ".gitignore",
+            "path": ".gitignore",
+            "sha": "f650315f30180800d0fed8ed1e7ceade266e9e71",
+            "size": 313,
+            "url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/.gitignore?ref=main",
+            "html_url": "https://github.com/nikhilshinde08/mvp_prompt_generator/blob/main/.gitignore",
+            "git_url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/blobs/f650315f30180800d0fed8ed1e7ceade266e9e71",
+            "download_url": "https://raw.githubusercontent.com/nikhilshinde08/mvp_prompt_generator/main/.gitignore",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/.gitignore?ref=main",
+              "git": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/blobs/f650315f30180800d0fed8ed1e7ceade266e9e71",
+              "html": "https://github.com/nikhilshinde08/mvp_prompt_generator/blob/main/.gitignore"
+            }
+          },
+          {
+            "name": "API_DOCS.md",
+            "path": "API_DOCS.md",
+            "sha": "684db141324e82599c8880476263a18b57914aa1",
+            "size": 2696,
+            "url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/API_DOCS.md?ref=main",
+            "html_url": "https://github.com/nikhilshinde08/mvp_prompt_generator/blob/main/API_DOCS.md",
+            "git_url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/blobs/684db141324e82599c8880476263a18b57914aa1",
+            "download_url": "https://raw.githubusercontent.com/nikhilshinde08/mvp_prompt_generator/main/API_DOCS.md",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/API_DOCS.md?ref=main",
+              "git": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/blobs/684db141324e82599c8880476263a18b57914aa1",
+              "html": "https://github.com/nikhilshinde08/mvp_prompt_generator/blob/main/API_DOCS.md"
+            }
+          },
+          {
+            "name": "README.md",
+            "path": "README.md",
+            "sha": "24441aefb76c46b1309a39750c8fded2b51bc048",
+            "size": 1590,
+            "url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/README.md?ref=main",
+            "html_url": "https://github.com/nikhilshinde08/mvp_prompt_generator/blob/main/README.md",
+            "git_url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/blobs/24441aefb76c46b1309a39750c8fded2b51bc048",
+            "download_url": "https://raw.githubusercontent.com/nikhilshinde08/mvp_prompt_generator/main/README.md",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/README.md?ref=main",
+              "git": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/blobs/24441aefb76c46b1309a39750c8fded2b51bc048",
+              "html": "https://github.com/nikhilshinde08/mvp_prompt_generator/blob/main/README.md"
+            }
+          },
+          {
+            "name": "app",
+            "path": "app",
+            "sha": "71deb5fa5eb9db32268325dd1e6fca5a47499145",
+            "size": 0,
+            "url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/app?ref=main",
+            "html_url": "https://github.com/nikhilshinde08/mvp_prompt_generator/tree/main/app",
+            "git_url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/trees/71deb5fa5eb9db32268325dd1e6fca5a47499145",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/app?ref=main",
+              "git": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/trees/71deb5fa5eb9db32268325dd1e6fca5a47499145",
+              "html": "https://github.com/nikhilshinde08/mvp_prompt_generator/tree/main/app"
+            }
+          },
+          {
+            "name": "components.json",
+            "path": "components.json",
+            "sha": "335484f9424bf72b98e3b892275740bc8f014754",
+            "size": 426,
+            "url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/components.json?ref=main",
+            "html_url": "https://github.com/nikhilshinde08/mvp_prompt_generator/blob/main/components.json",
+            "git_url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/blobs/335484f9424bf72b98e3b892275740bc8f014754",
+            "download_url": "https://raw.githubusercontent.com/nikhilshinde08/mvp_prompt_generator/main/components.json",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/components.json?ref=main",
+              "git": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/blobs/335484f9424bf72b98e3b892275740bc8f014754",
+              "html": "https://github.com/nikhilshinde08/mvp_prompt_generator/blob/main/components.json"
+            }
+          },
+          {
+            "name": "components",
+            "path": "components",
+            "sha": "e765c4589045e943497d83d329bd1304f0cdbdaf",
+            "size": 0,
+            "url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/components?ref=main",
+            "html_url": "https://github.com/nikhilshinde08/mvp_prompt_generator/tree/main/components",
+            "git_url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/trees/e765c4589045e943497d83d329bd1304f0cdbdaf",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/components?ref=main",
+              "git": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/trees/e765c4589045e943497d83d329bd1304f0cdbdaf",
+              "html": "https://github.com/nikhilshinde08/mvp_prompt_generator/tree/main/components"
+            }
+          },
+          {
+            "name": "github-mvp-docs.zip",
+            "path": "github-mvp-docs.zip",
+            "sha": "f1fa793a1487a6816ba3ce3544992f1b4b58bf84",
+            "size": 213456,
+            "url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/github-mvp-docs.zip?ref=main",
+            "html_url": "https://github.com/nikhilshinde08/mvp_prompt_generator/blob/main/github-mvp-docs.zip",
+            "git_url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/blobs/f1fa793a1487a6816ba3ce3544992f1b4b58bf84",
+            "download_url": "https://raw.githubusercontent.com/nikhilshinde08/mvp_prompt_generator/main/github-mvp-docs.zip",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/github-mvp-docs.zip?ref=main",
+              "git": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/blobs/f1fa793a1487a6816ba3ce3544992f1b4b58bf84",
+              "html": "https://github.com/nikhilshinde08/mvp_prompt_generator/blob/main/github-mvp-docs.zip"
+            }
+          },
+          {
+            "name": "github_mvp_generator",
+            "path": "github_mvp_generator",
+            "sha": "a79608bb9d846d7a77a72eb0693b6ab06bada1d9",
+            "size": 0,
+            "url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/github_mvp_generator?ref=main",
+            "html_url": "https://github.com/nikhilshinde08/mvp_prompt_generator/tree/main/github_mvp_generator",
+            "git_url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/trees/a79608bb9d846d7a77a72eb0693b6ab06bada1d9",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/github_mvp_generator?ref=main",
+              "git": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/trees/a79608bb9d846d7a77a72eb0693b6ab06bada1d9",
+              "html": "https://github.com/nikhilshinde08/mvp_prompt_generator/tree/main/github_mvp_generator"
+            }
+          },
+          {
+            "name": "hooks",
+            "path": "hooks",
+            "sha": "046af53fc8d7a6cd4fa163c8c1cb64caa0eb1612",
+            "size": 0,
+            "url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/hooks?ref=main",
+            "html_url": "https://github.com/nikhilshinde08/mvp_prompt_generator/tree/main/hooks",
+            "git_url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/trees/046af53fc8d7a6cd4fa163c8c1cb64caa0eb1612",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/hooks?ref=main",
+              "git": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/trees/046af53fc8d7a6cd4fa163c8c1cb64caa0eb1612",
+              "html": "https://github.com/nikhilshinde08/mvp_prompt_generator/tree/main/hooks"
+            }
+          },
+          {
+            "name": "lib",
+            "path": "lib",
+            "sha": "1bdc1d66ab5752bb8929bbb4ca0daee1df5f30da",
+            "size": 0,
+            "url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/lib?ref=main",
+            "html_url": "https://github.com/nikhilshinde08/mvp_prompt_generator/tree/main/lib",
+            "git_url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/trees/1bdc1d66ab5752bb8929bbb4ca0daee1df5f30da",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/lib?ref=main",
+              "git": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/trees/1bdc1d66ab5752bb8929bbb4ca0daee1df5f30da",
+              "html": "https://github.com/nikhilshinde08/mvp_prompt_generator/tree/main/lib"
+            }
+          },
+          {
+            "name": "next.config.mjs",
+            "path": "next.config.mjs",
+            "sha": "f5cbc38998096a82f53e59875c4474a037c4bf24",
+            "size": 228,
+            "url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/next.config.mjs?ref=main",
+            "html_url": "https://github.com/nikhilshinde08/mvp_prompt_generator/blob/main/next.config.mjs",
+            "git_url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/blobs/f5cbc38998096a82f53e59875c4474a037c4bf24",
+            "download_url": "https://raw.githubusercontent.com/nikhilshinde08/mvp_prompt_generator/main/next.config.mjs",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/next.config.mjs?ref=main",
+              "git": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/blobs/f5cbc38998096a82f53e59875c4474a037c4bf24",
+              "html": "https://github.com/nikhilshinde08/mvp_prompt_generator/blob/main/next.config.mjs"
+            }
+          },
+          {
+            "name": "package-lock.json",
+            "path": "package-lock.json",
+            "sha": "d2aa7bab785623a6a68745c9fc2f7fea0e004973",
+            "size": 130448,
+            "url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/package-lock.json?ref=main",
+            "html_url": "https://github.com/nikhilshinde08/mvp_prompt_generator/blob/main/package-lock.json",
+            "git_url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/blobs/d2aa7bab785623a6a68745c9fc2f7fea0e004973",
+            "download_url": "https://raw.githubusercontent.com/nikhilshinde08/mvp_prompt_generator/main/package-lock.json",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/package-lock.json?ref=main",
+              "git": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/blobs/d2aa7bab785623a6a68745c9fc2f7fea0e004973",
+              "html": "https://github.com/nikhilshinde08/mvp_prompt_generator/blob/main/package-lock.json"
+            }
+          },
+          {
+            "name": "package.json",
+            "path": "package.json",
+            "sha": "d60a74fa8c845e7194fc174a1bb9a8db0b3b2114",
+            "size": 2288,
+            "url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/package.json?ref=main",
+            "html_url": "https://github.com/nikhilshinde08/mvp_prompt_generator/blob/main/package.json",
+            "git_url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/blobs/d60a74fa8c845e7194fc174a1bb9a8db0b3b2114",
+            "download_url": "https://raw.githubusercontent.com/nikhilshinde08/mvp_prompt_generator/main/package.json",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/package.json?ref=main",
+              "git": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/blobs/d60a74fa8c845e7194fc174a1bb9a8db0b3b2114",
+              "html": "https://github.com/nikhilshinde08/mvp_prompt_generator/blob/main/package.json"
+            }
+          },
+          {
+            "name": "pnpm-lock.yaml",
+            "path": "pnpm-lock.yaml",
+            "sha": "ca98c4816d12a9c6f8cff1b89c7ad1281b5a3dc0",
+            "size": 92,
+            "url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/pnpm-lock.yaml?ref=main",
+            "html_url": "https://github.com/nikhilshinde08/mvp_prompt_generator/blob/main/pnpm-lock.yaml",
+            "git_url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/blobs/ca98c4816d12a9c6f8cff1b89c7ad1281b5a3dc0",
+            "download_url": "https://raw.githubusercontent.com/nikhilshinde08/mvp_prompt_generator/main/pnpm-lock.yaml",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/pnpm-lock.yaml?ref=main",
+              "git": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/blobs/ca98c4816d12a9c6f8cff1b89c7ad1281b5a3dc0",
+              "html": "https://github.com/nikhilshinde08/mvp_prompt_generator/blob/main/pnpm-lock.yaml"
+            }
+          },
+          {
+            "name": "postcss.config.mjs",
+            "path": "postcss.config.mjs",
+            "sha": "a869506ee48c89838ee770863c5d99ba97eeb930",
+            "size": 144,
+            "url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/postcss.config.mjs?ref=main",
+            "html_url": "https://github.com/nikhilshinde08/mvp_prompt_generator/blob/main/postcss.config.mjs",
+            "git_url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/blobs/a869506ee48c89838ee770863c5d99ba97eeb930",
+            "download_url": "https://raw.githubusercontent.com/nikhilshinde08/mvp_prompt_generator/main/postcss.config.mjs",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/postcss.config.mjs?ref=main",
+              "git": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/blobs/a869506ee48c89838ee770863c5d99ba97eeb930",
+              "html": "https://github.com/nikhilshinde08/mvp_prompt_generator/blob/main/postcss.config.mjs"
+            }
+          },
+          {
+            "name": "public",
+            "path": "public",
+            "sha": "f2071236713fc87b8ef6f8cc02e1193944cc4974",
+            "size": 0,
+            "url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/public?ref=main",
+            "html_url": "https://github.com/nikhilshinde08/mvp_prompt_generator/tree/main/public",
+            "git_url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/trees/f2071236713fc87b8ef6f8cc02e1193944cc4974",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/public?ref=main",
+              "git": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/trees/f2071236713fc87b8ef6f8cc02e1193944cc4974",
+              "html": "https://github.com/nikhilshinde08/mvp_prompt_generator/tree/main/public"
+            }
+          },
+          {
+            "name": "sample_mvp_guidance.md",
+            "path": "sample_mvp_guidance.md",
+            "sha": "9557ece9350f07616dcb6804af26325a166aa72a",
+            "size": 4616,
+            "url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/sample_mvp_guidance.md?ref=main",
+            "html_url": "https://github.com/nikhilshinde08/mvp_prompt_generator/blob/main/sample_mvp_guidance.md",
+            "git_url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/blobs/9557ece9350f07616dcb6804af26325a166aa72a",
+            "download_url": "https://raw.githubusercontent.com/nikhilshinde08/mvp_prompt_generator/main/sample_mvp_guidance.md",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/sample_mvp_guidance.md?ref=main",
+              "git": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/blobs/9557ece9350f07616dcb6804af26325a166aa72a",
+              "html": "https://github.com/nikhilshinde08/mvp_prompt_generator/blob/main/sample_mvp_guidance.md"
+            }
+          },
+          {
+            "name": "start_all.sh",
+            "path": "start_all.sh",
+            "sha": "77b15696218f18ef2db98fef28f4cd69eac21061",
+            "size": 1105,
+            "url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/start_all.sh?ref=main",
+            "html_url": "https://github.com/nikhilshinde08/mvp_prompt_generator/blob/main/start_all.sh",
+            "git_url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/blobs/77b15696218f18ef2db98fef28f4cd69eac21061",
+            "download_url": "https://raw.githubusercontent.com/nikhilshinde08/mvp_prompt_generator/main/start_all.sh",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/start_all.sh?ref=main",
+              "git": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/blobs/77b15696218f18ef2db98fef28f4cd69eac21061",
+              "html": "https://github.com/nikhilshinde08/mvp_prompt_generator/blob/main/start_all.sh"
+            }
+          },
+          {
+            "name": "styles",
+            "path": "styles",
+            "sha": "0307a882bba14e2968ee3dadf00e995693f94a6b",
+            "size": 0,
+            "url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/styles?ref=main",
+            "html_url": "https://github.com/nikhilshinde08/mvp_prompt_generator/tree/main/styles",
+            "git_url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/trees/0307a882bba14e2968ee3dadf00e995693f94a6b",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+              "self": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/styles?ref=main",
+              "git": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/trees/0307a882bba14e2968ee3dadf00e995693f94a6b",
+              "html": "https://github.com/nikhilshinde08/mvp_prompt_generator/tree/main/styles"
+            }
+          },
+          {
+            "name": "test_changes.py",
+            "path": "test_changes.py",
+            "sha": "76d0f3eb6eb142a2ee2d01885a5ad09b72b020d9",
+            "size": 3441,
+            "url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/test_changes.py?ref=main",
+            "html_url": "https://github.com/nikhilshinde08/mvp_prompt_generator/blob/main/test_changes.py",
+            "git_url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/blobs/76d0f3eb6eb142a2ee2d01885a5ad09b72b020d9",
+            "download_url": "https://raw.githubusercontent.com/nikhilshinde08/mvp_prompt_generator/main/test_changes.py",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/test_changes.py?ref=main",
+              "git": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/blobs/76d0f3eb6eb142a2ee2d01885a5ad09b72b020d9",
+              "html": "https://github.com/nikhilshinde08/mvp_prompt_generator/blob/main/test_changes.py"
+            }
+          },
+          {
+            "name": "test_mvp_changes.py",
+            "path": "test_mvp_changes.py",
+            "sha": "aadb21b2a663da5f3e5f710e261767a982acc9ab",
+            "size": 1694,
+            "url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/test_mvp_changes.py?ref=main",
+            "html_url": "https://github.com/nikhilshinde08/mvp_prompt_generator/blob/main/test_mvp_changes.py",
+            "git_url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/blobs/aadb21b2a663da5f3e5f710e261767a982acc9ab",
+            "download_url": "https://raw.githubusercontent.com/nikhilshinde08/mvp_prompt_generator/main/test_mvp_changes.py",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/test_mvp_changes.py?ref=main",
+              "git": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/blobs/aadb21b2a663da5f3e5f710e261767a982acc9ab",
+              "html": "https://github.com/nikhilshinde08/mvp_prompt_generator/blob/main/test_mvp_changes.py"
+            }
+          },
+          {
+            "name": "tsconfig.json",
+            "path": "tsconfig.json",
+            "sha": "4b2dc7ba6272c0b64b5638838d179ba93896ad80",
+            "size": 595,
+            "url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/tsconfig.json?ref=main",
+            "html_url": "https://github.com/nikhilshinde08/mvp_prompt_generator/blob/main/tsconfig.json",
+            "git_url": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/blobs/4b2dc7ba6272c0b64b5638838d179ba93896ad80",
+            "download_url": "https://raw.githubusercontent.com/nikhilshinde08/mvp_prompt_generator/main/tsconfig.json",
+            "type": "file",
+            "_links": {
+              "self": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/contents/tsconfig.json?ref=main",
+              "git": "https://api.github.com/repos/nikhilshinde08/mvp_prompt_generator/git/blobs/4b2dc7ba6272c0b64b5638838d179ba93896ad80",
+              "html": "https://github.com/nikhilshinde08/mvp_prompt_generator/blob/main/tsconfig.json"
+            }
+          }
+        ]
+      },
+      "timestamp": "2025-09-08T18:36:56.737292"
     }
   },
   "tech_stack_combinations": {},
-  "last_updated": "2025-09-08T11:47:10.249660"
+  "last_updated": "2025-09-08T18:36:56.737310"
 }

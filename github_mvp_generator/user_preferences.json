@@ -340,7 +340,31 @@
     "and Fish so that users get tab\u2011completion of options and presets when installing the tool. |\n| **Doxygen** (`doc/` or `CMake` Doxygen target) | Generates API documentation from source\u2011code comments; the `doc/` folder holds the generated HTML/Markdown that is served on GitHub Pages. |\n| **Git** | Version\u2011control system; the repository itself",
     "branching",
     "tags",
-    "and release management are all done via Git. |\n| **GitHub\u202fPages** (via the `doc/` folder) | Hosts the rendered README and any generated documentation for easy browsing. |\n| **Standard POSIX/Linux system libraries**"
+    "and release management are all done via Git. |\n| **GitHub\u202fPages** (via the `doc/` folder) | Hosts the rendered README and any generated documentation for easy browsing. |\n| **Standard POSIX/Linux system libraries**",
+    "JavaScript",
+    "Next.js",
+    "PostCSS",
+    "Tailwind\u202fCSS (inferred from PostCSS config)",
+    "npm scripts",
+    "Bash (start_all.sh)\n\n---\n\n### Stack Overview & Context  \n\n| Category | Item | Role / Brief Context |\n|----------|------|----------------------|\n| **Language / Runtime** | **TypeScript** | Main development language; provides static typing on top of JavaScript for the whole code\u2011base. |\n| | **JavaScript** | Used wherever plain JS is sufficient (e.g.",
+    "config files",
+    "scripts). |\n| | **Node.js** | Server\u2011side runtime that executes the Next.js/Express app and runs the npm scripts. |\n| | **Python** | Used by `test_changes.py` \u2013 a helper script for running quick validation/tests outside the Node ecosystem. |\n| **Package Manager** | **pnpm** | Declared lockfile (`pnpm-lock.yaml`) indicates the project uses pnpm for deterministic",
+    "fast installs. |\n| **Frameworks** | **Next.js** | Full\u2011stack React framework that powers the web UI and provides server\u2011side rendering",
+    "routing",
+    "and API routes. |\n| | **React** | UI library underlying Next.js components; all React components live under `components/`. |\n| | **Express** | Lightweight HTTP server used for custom API endpoints that are not covered by Next.js API routes (e.g.",
+    "webhook handling). |\n| | **Vue** | Present as a dependency (detected in `package.json`); likely used for a small set of isolated UI widgets or as a reference implementation. |\n| | **Angular** | Also listed among dependencies; may be included for experimental components or documentation examples. |\n| **Styling** | **PostCSS** (`postcss.config.mjs`) | CSS processing pipeline; enables autoprefixing",
+    "nesting",
+    "and integration of utility\u2011first frameworks. |\n| | **Tailwind\u202fCSS** *(inferred)* | Typical companion to PostCSS in Next.js projects; provides utility\u2011first classes used throughout the UI. |\n| **Build / Config** | **next.config.mjs** | Custom Next.js configuration (e.g.",
+    "webpack tweaks",
+    "image domains",
+    "env vars). |\n| | **Bash (`start_all.sh`)** | Convenience script that spins up the dev server",
+    "runs any required background services",
+    "and may launch the Python test helper. |\n| **Testing / QA** | **test_changes.py** | Python\u2011based sanity\u2011check script that can be run manually or from CI to verify that recent changes don\u2019t break core generation logic. |\n| **Package Metadata** | **package.json / package-lock.json** | Declares all Node dependencies (including React",
+    "Next",
+    "testing libs like Jest or Vitest",
+    "etc.). |\n| **Lockfiles** | **pnpm-lock.yaml** | Guarantees reproducible installs with pnpm. |\n| **Static Assets** | **public/** | Holds images",
+    "favicons",
+    "and other static files served directly by Next.js. |\n| **Component Registry** | **components.json** | Likely a manifest describing reusable UI components (used by the generator to scaffold prompts). |\n| **Documentation** | **README"
   ],
   "preferred_project_types": [
     "Web Application",
@@ -355,8 +379,9 @@
     "PROJECT TYPE: Python library / framework for building LLM agents",
     "PROJECT TYPE: Python library / SDK for building controllable LLM agents",
     "PROJECT TYPE: Python library / SDK for LLM agents",
-    "PROJECT TYPE: Command\u2011line system information utility"
+    "PROJECT TYPE: Command\u2011line system information utility",
+    "PROJECT TYPE: Web Application (Full\u2011stack)"
   ],
-  "last_used": "2025-09-08T11:47:10.270193",
-  "usage_count": 14
+  "last_used": "2025-09-08T18:36:57.046239",
+  "usage_count": 15
 }
