@@ -8,10 +8,12 @@ services:
     startCommand: "./github_mvp_generator/start.sh"
     envVars:
       - key: PYTHON_VERSION
-        value: 3.9.18
+        value: 3.11.9
       - key: GROQ_API_KEY
         sync: false
       - key: AI_PROVIDER
         value: groq
+      - key: PORT
+        value: 10000
     domains:
       - github-mvp-generator-api.onrender.com
