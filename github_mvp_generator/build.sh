@@ -21,4 +21,4 @@ pip install --upgrade pip
 # Install Python dependencies
 pip install -r requirements.txt
 
-echo "Backend build completed."
+echo "Backend build completed successfully."
