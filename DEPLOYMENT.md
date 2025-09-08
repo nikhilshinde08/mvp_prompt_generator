@@ -1,6 +1,6 @@
 # Deploying to Render.com
 
-This guide explains how to deploy the GitHub MVP Generator application to Render.com.
+This guide explains how to deploy the GitHub MVP Generator application to Render.com as separate services.
 
 ## Prerequisites
 
@@ -13,50 +13,54 @@ This guide explains how to deploy the GitHub MVP Generator application to Render
 
 First, fork this repository to your GitHub account so you can make configuration changes.
 
-### 2. Create Services on Render
+### 2. Deploy the Backend API Service
 
 1. Go to [Render Dashboard](https://dashboard.render.com/)
 2. Click "New" and select "Web Service"
 3. Connect your GitHub account and select your forked repository
-
-### 3. Deploy the Backend API
-
-1. Create a new Web Service with these settings:
+4. Set the following configuration:
    - **Name**: `github-mvp-generator-api`
    - **Runtime**: Python 3
+   - **Region**: Choose the region closest to you
+   - **Branch**: main
+   - **Root Directory**: Leave empty
    - **Build Command**: `./github_mvp_generator/build.sh`
    - **Start Command**: `./github_mvp_generator/start.sh`
    - **Plan**: Free
+   - **Auto Deploy**: Yes (recommended)
 
-2. Add environment variables:
+5. Add environment variables:
    - `GROQ_API_KEY`: Your Groq API key (keep it secret)
    - `AI_PROVIDER`: `groq` (default)
 
-3. Click "Create Web Service"
+6. Click "Create Web Service"
 
-### 4. Deploy the Frontend
+7. Wait for the deployment to complete (this may take a few minutes)
+8. Note the URL of your deployed backend service (e.g., `https://github-mvp-generator-api-xyz1.onrender.com`)
 
-1. Create another Web Service with these settings:
+### 3. Deploy the Frontend Service
+
+1. Go to [Render Dashboard](https://dashboard.render.com/)
+2. Click "New" and select "Web Service"
+3. Connect your GitHub account and select your forked repository
+4. Set the following configuration:
    - **Name**: `github-mvp-generator-frontend`
    - **Runtime**: Node
+   - **Region**: Choose the region closest to you
+   - **Branch**: main
+   - **Root Directory**: Leave empty
    - **Build Command**: `npm install && npm run build`
    - **Start Command**: `npm run start`
    - **Plan**: Free
+   - **Auto Deploy**: Yes (recommended)
 
-2. Add environment variables:
-   - `NEXT_PUBLIC_BACKEND_API_URL`: The URL of your deployed backend service (will be available after backend deployment)
+5. Add environment variables:
+   - `NEXT_PUBLIC_BACKEND_API_URL`: The URL of your deployed backend service
    - Example: `https://github-mvp-generator-api-xyz1.onrender.com`
 
-3. Click "Create Web Service"
+6. Click "Create Web Service"
 
-### 5. Update Frontend Configuration (if needed)
-
-If you need to update the backend URL after deployment:
-
-1. Go to your frontend service on Render
-2. Go to "Environment" tab
-3. Update `NEXT_PUBLIC_BACKEND_API_URL` with the correct backend URL
-4. Redeploy the frontend
+7. Wait for the deployment to complete (this may take a few minutes)
 
 ## Environment Variables
 
@@ -66,65 +70,41 @@ If you need to update the backend URL after deployment:
 - `GITHUB_TOKEN`: Optional GitHub token for higher rate limits
 
 ### Frontend
-- `NEXT_PUBLIC_BACKEND_API_URL`: URL of your backend API service
+- `NEXT_PUBLIC_BACKEND_API_URL`: URL of your deployed backend service
 
-## Automatic Deployments
+## Connecting the Services
+
+After deploying both services:
+
+1. If you didn't know your backend URL during frontend deployment:
+   - Go to your frontend service on Render
+   - Click "Environment" in the sidebar
+   - Update `NEXT_PUBLIC_BACKEND_API_URL` with your actual backend URL
+   - Click "Save Changes" to redeploy
+
+2. The frontend will automatically make API calls to your backend service
+
+## Testing the Deployment
+
+After both services are deployed:
+
+1. Visit your frontend URL (e.g., `https://github-mvp-generator-frontend-xyz1.onrender.com`)
+2. You should see the GitHub MVP Generator interface
+3. Enter a GitHub repository URL (e.g., `https://github.com/facebook/react`)
+4. Click "Generate MVP Prompt"
+5. The frontend will call your backend API to generate the prompt
+6. You can also check your backend directly:
+   - Health check: `https://your-backend-url.onrender.com/health`
+   - API endpoints: `https://your-backend-url.onrender.com/`
+
+## Updating Services
 
 Render automatically redeploys your services when you push to your connected GitHub repository.
 
-## Troubleshooting
-
-### Backend Issues
-
-1. **Port already in use**: 
-   - Make sure no other processes are running on the same port
-   - The backend automatically uses the PORT environment variable provided by Render
-   - Locally, you can specify a different port: `PORT=8001 ./github_mvp_generator/start.sh`
-
-2. **Python not found**: 
-   - Ensure the virtual environment is properly set up
-   - The build script will create and activate the virtual environment
-   - Run `./github_mvp_generator/build.sh` first to set up dependencies
-
-3. **Missing dependencies**: 
-   - Check that `requirements.txt` is properly configured
-   - The build script will install all required Python packages
-
-4. **API key issues**: 
-   - Verify your `GROQ_API_KEY` is correctly set in environment variables
-   - Check the API key is valid and has not expired
-
-### Frontend Issues
-
-1. **Backend connection problems**:
-   - Verify `NEXT_PUBLIC_BACKEND_API_URL` is set correctly
-   - Check that the backend service is running
-   - Ensure the backend URL matches the actual deployed URL
-
-2. **Build failures**:
-   - Check Node.js version compatibility
-   - Ensure all npm dependencies are correctly installed
-   - Clear npm cache if needed: `npm cache clean --force`
-
-### Testing Locally
-
-1. **Start backend**:
-   ```bash
-   cd github_mvp_generator
-   ./build.sh
-   ./start.sh
-   ```
-
-2. **Test backend**:
-   ```bash
-   curl http://localhost:8000/health
-   ```
-
-3. **Start frontend**:
-   ```bash
-   npm install
-   npm run dev
-   ```
+To manually redeploy:
+1. Go to your service on Render
+2. Click "Manual Deploy" 
+3. Select "Clear build cache & deploy"
 
 ## Domain Configuration (Optional)
 
@@ -137,3 +117,32 @@ You can add custom domains to both services in the Render dashboard:
 The application will be available at your Render URLs:
 - Frontend: `https://github-mvp-generator-frontend-xyz1.onrender.com`
 - Backend API: `https://github-mvp-generator-api-xyz1.onrender.com`
+
+## Troubleshooting
+
+### Common Issues
+
+1. **Frontend can't connect to backend**:
+   - Verify `NEXT_PUBLIC_BACKEND_API_URL` is set correctly in the frontend service
+   - Check that the backend service is running (check logs)
+   - Ensure the backend URL is accessible via browser
+
+2. **Backend fails to start**:
+   - Check logs for error messages
+   - Verify `GROQ_API_KEY` is correctly set
+   - Ensure all dependencies are installed correctly
+
+3. **Rate limiting**:
+   - Add a `GITHUB_TOKEN` environment variable to increase GitHub API rate limits
+
+### Checking Logs
+
+1. Go to your service on Render
+2. Click "Logs" in the sidebar
+3. View real-time logs or historical logs
+4. Look for error messages or warnings
+
+### Service Health
+
+1. Backend health check: `https://your-backend-url.onrender.com/health`
+2. Frontend health check: Visit your frontend URL - it should load the application

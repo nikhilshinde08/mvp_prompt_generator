@@ -1,0 +1,17 @@
+services:
+  # Backend API Service
+  - type: web
+    name: github-mvp-generator-api
+    runtime: python
+    plan: free
+    buildCommand: "./github_mvp_generator/build.sh"
+    startCommand: "./github_mvp_generator/start.sh"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.18
+      - key: GROQ_API_KEY
+        sync: false
+      - key: AI_PROVIDER
+        value: groq
+    domains:
+      - github-mvp-generator-api.onrender.com

@@ -1,0 +1,15 @@
+services:
+  # Frontend Web Service
+  - type: web
+    name: github-mvp-generator-frontend
+    runtime: node
+    plan: free
+    buildCommand: "npm install && npm run build"
+    startCommand: "npm run start"
+    envVars:
+      - key: NODE_VERSION
+        value: 18
+      - key: NEXT_PUBLIC_BACKEND_API_URL
+        value: "https://github-mvp-generator-api.onrender.com"  # Update this after deploying backend
+    domains:
+      - github-mvp-generator-frontend.onrender.com
